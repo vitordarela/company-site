@@ -65,7 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                You imagine and we develop. We create software and provide services using the best technologies on the market today.
+                You imagine and we develop. We create software and provide services using the best technologies on the market.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -73,7 +73,7 @@ const Hero = ({
                     Get started
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
+                    View our Projects
                     </Button>
                 </ButtonGroup>
               </div>
