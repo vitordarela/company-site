@@ -114,6 +114,9 @@ const Header = ({
                     <li>
                     <Link to="/technologies" onClick={closeMenu}>Technologies</Link>
                     </li>
+                    <li>
+                    <Link to="/cloud/servers" onClick={closeMenu}>Cloud Servers</Link>
+                    </li>
                   </ul>
                   {!hideSignin &&
                     <ul

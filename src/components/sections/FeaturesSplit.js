@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'WSO2',
+    paragraph: 'Ajudamos você a conectar seus negócios.'
   };
 
   return (
@@ -67,13 +67,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Como podes ajudar?
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Instalação e Configuração
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Nosso time está preparado para ajudar você a conectar suas aplicações e montar sua arquitetura de middleware com a plataforma de código aberto WSO2.
                   </p>
               </div>
               <div className={
@@ -93,13 +93,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Plataforma
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  A WSO2 fornece uma série de ferramentas e soluções para ajudar as empresas a gerenciar e implementar APIs, integrar aplicativos e dados, e fornecer segurança e conformidade para operações digitais.
+                  A ferramenta é amplamente utilizada em ambientes de TI corporativos para ajudar a conectar sistemas e permitir a colaboração entre diferentes departamentos e sistemas.
                   </p>
               </div>
               <div className={
@@ -119,13 +120,15 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Produtos WSO2
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Toda a stack de middleware
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  <p>WSO2 API Manager: Plataforma de gerenciamento de API. </p>
+                  <p>WSO2 Enterprise Integrator: Plataforma de integração de aplicativos</p>
+                  <p>WSO2 Identity Server: Plataforma de gerenciamento de identidade.</p>
                   </p>
               </div>
               <div className={
