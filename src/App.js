@@ -10,6 +10,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views 
 import Home from './views/Home';
 import Technologies from './views/tecnologies/index.js'
+import Wso2 from './views/tecnologies/WSO2'
 import CloudServers from './views/cloudservers/index.js'
 
 // Initialize Google Analytics
@@ -40,7 +41,8 @@ const App = () => {
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute exact path="/technologies" component={Technologies} layout={LayoutDefault} />
-          <AppRoute exact path="/cloud/servers" component={Technologies} layout={LayoutDefault} />
+          <AppRoute exact path="/technologies/wso2" component={Wso2} layout={LayoutDefault} />
+          <AppRoute exact path="/cloud/servers" component={CloudServers} layout={LayoutDefault} />
         </Switch>
       )} />
   );

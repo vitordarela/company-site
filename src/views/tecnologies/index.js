@@ -1,16 +1,16 @@
 import React from 'react';
 // import sections
-import FeaturesSplit from '../../components/sections/FeaturesSplit';
+import TechnologiesComponent from '../../components/sections/Technologies';
 import Cta from '../../components/sections/Cta';
 
-const Home = () => {
+const Technologies = () => {
 
   return (
     <>
-      <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
+      <TechnologiesComponent topDivider />
       <Cta split />
     </>
   );
 }
 
-export default Home;
+export default Technologies;

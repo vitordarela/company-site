@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Cloud Servers',
-    paragraph: 'We are using the best cloud solution to support our projects.'
+    title: 'WSO2',
+    paragraph: 'Ajudamos você a conectar seus negócios.'
   };
 
   return (
