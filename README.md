@@ -1,4 +1,4 @@
-# Free React landing page template
+# CodeBe Company Website
 
 ![Open React template preview](https://user-images.githubusercontent.com/2683512/78789364-545e7100-79ad-11ea-9e3c-9528c99cda8e.png)
 
@@ -8,19 +8,6 @@ Use it for whatever you want, and be sure to reach us out on [Twitter](https://t
 
 Created and maintained with ❤️ by [Cruip.com](https://cruip.com).
 
-## Live demo
-
-Check the live demo here 👉️ [https://open.cruip.com/](https://open.cruip.com/)
-
-## Open PRO
-
-[![Open Pro](https://user-images.githubusercontent.com/2683512/151177673-e56ade57-c98d-4c37-b315-d313bd14bb53.png)](https://cruip.com/)
-
-*The premium template is built on-the-top of [Tailwind CSS](https://tailwindcss.com/), and React components have been re-built from scratch.* 
-
-## Design files
-
-If you need the design files, you can download them from Figma's Community 👉 https://bit.ly/3BjiEtQ
 
 ## Table of contents
 
@@ -123,22 +110,9 @@ This template uses the [React Google Analytics Module](https://github.com/react-
 
 In order to track visitors, you need to set an [environment variable](https://create-react-app.dev/docs/adding-custom-environment-variables/) called `REACT_APP_GA_CODE` storing your [GA Tracking ID](https://support.google.com/analytics/answer/7372977).
 
-## Credits
-
-- [Nucleo](https://nucleoapp.com/)
-- [Unsplash](https://unsplash.com/)
-
 ## Terms and License
 
 - Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
 - Copyright 2020 [Cruip](https://cruip.com/).
 - Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
 - Attribution is not required, although it is really appreciated.
-
-## About Us
-
-We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
-
-## Stay in the loop
-
-If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Cruip_com), or you can subscribe to our monthly [newsletter](https://cruip.com/#subscribe).
