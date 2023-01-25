@@ -87,7 +87,7 @@ const Testimonial = ({
                   <Image
                   style={{paddingTop: 35, alignSelf: 'flex-start'}}
                   src={require('./../../assets/images/spring-logo.png')}
-                  alt="Spring tecnology"
+                  alt="Spring tecnology "
                   width={528}
                   height={396} />
                       </p>
