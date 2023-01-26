@@ -5,6 +5,13 @@
 
   .tiles-item-inner {
     background: get-color(dark, 2);
+
+    border: 1px solid transparent;
+    transition: border-color 0.5s;
+
+    &:hover {
+      border-color: get-color(dark, 3);
+    }
   }
 }
 
