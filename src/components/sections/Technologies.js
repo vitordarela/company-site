@@ -3,7 +3,7 @@ import classNames from 'classnames'
 import { SectionTilesProps } from '../../utils/SectionProps'
 import SectionHeader from './partials/SectionHeader'
 import Image from '../elements/Image'
-import { useHistory } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const propTypes = {
   ...SectionTilesProps.types,
@@ -47,17 +47,14 @@ const Testimonial = ({
       'Our team is ready and prepared to assist you with the main technologies in the market, both at the backend and frontend levels.',
   }
 
-  const history = useHistory()
-  const handleClickWso2 = () => history.push('/technologies/wso2')
-
   return (
     <section {...props} className={outerClasses}>
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
-            <div
-              onClick={handleClickWso2}
+            <Link
+              to="technologies/wso2"
               className="tiles-item reveal-from-bottom"
             >
               <div className="tiles-item-inner">
@@ -73,9 +70,12 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="tiles-item reveal-from-bottom">
+            <Link
+              to="technologies/spring"
+              className="tiles-item reveal-from-bottom"
+            >
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content-tech">
                   <Image
@@ -89,9 +89,12 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="tiles-item reveal-from-bottom">
+            <Link
+              to="technologies/reactjs"
+              className="tiles-item reveal-from-bottom"
+            >
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content-tech">
                   <Image
@@ -105,9 +108,12 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="tiles-item reveal-from-bottom">
+            <Link
+              to="technologies/dotnet"
+              className="tiles-item reveal-from-bottom"
+            >
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content-tech">
                   <Image
@@ -121,9 +127,12 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="tiles-item reveal-from-bottom">
+            <Link
+              to="technologies/nodejs"
+              className="tiles-item reveal-from-bottom"
+            >
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content-tech">
                   <Image
@@ -137,9 +146,12 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="tiles-item reveal-from-bottom">
+            <Link
+              to="technologies/vuejs"
+              className="tiles-item reveal-from-bottom"
+            >
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content-tech">
                   <Image
@@ -153,9 +165,12 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="tiles-item reveal-from-bottom">
+            <Link
+              to="technologies/angularjs"
+              className="tiles-item reveal-from-bottom"
+            >
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content-tech">
                   <Image
@@ -169,9 +184,12 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="tiles-item reveal-from-bottom">
+            <Link
+              to="technologies/wordpress"
+              className="tiles-item reveal-from-bottom"
+            >
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content-tech">
                   <Image
@@ -185,9 +203,12 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="tiles-item reveal-from-bottom">
+            <Link
+              to="technologies/shopify"
+              className="tiles-item reveal-from-bottom"
+            >
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content-tech">
                   <Image
@@ -201,7 +222,7 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
