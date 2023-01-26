@@ -1,16 +1,20 @@
-import React from 'react';
+import React from 'react'
 // import sections
-import FeaturesSplit from '../../components/sections/FeaturesSplit';
-import Cta from '../../components/sections/Cta';
+import CloudServers from '../../components/sections/cloudservers/couldservers'
+import Cta from '../../components/sections/Cta'
 
 const Home = () => {
-
   return (
     <>
-      <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
+      <CloudServers
+        invertMobile
+        topDivider
+        imageFill
+        className="illustration-section-02"
+      />
       <Cta split />
     </>
-  );
+  )
 }
 
-export default Home;
+export default Home
