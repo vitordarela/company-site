@@ -36,7 +36,10 @@ const SplitItem = ({
               {data.subTitle}
             </div>
             <h3 className="mt-0 mb-12">{data.title}</h3>
-            <div className="m-0">{data.paragraph}</div>
+            <div
+              className="m-0"
+              dangerouslySetInnerHTML={{ __html: data.paragraph }}
+            />
           </div>
           <div
             className={classNames(
