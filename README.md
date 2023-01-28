@@ -9,7 +9,7 @@ Use it for whatever you want, and be sure to reach us out on [Twitter](https://t
 Created and maintained with ❤️ by [Cruip.com](https://cruip.com).
 
 
-## Table of contents
+## Table of contents 
 
 * [Usage](#usage)
   * [Available Scripts](#available-scripts)
