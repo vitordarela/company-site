@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react'
-import { useLocation, Switch } from 'react-router-dom'
+import { useLocation, Switch, Redirect } from 'react-router-dom'
 import AppRoute from './utils/AppRoute'
 import ScrollReveal from './utils/ScrollReveal'
 import ReactGA from 'react-ga'
@@ -9,8 +9,8 @@ import LayoutDefault from './layouts/LayoutDefault'
 
 // Views
 import Home from './views/Home'
-import Technologies from './views/tecnologies/index.js'
-import CloudServers from './views/cloudservers/index.js'
+import Technologies from './views/Technologies'
+import CloudServers from './views/CloudServers'
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE)
@@ -56,6 +56,7 @@ const App = () => {
             component={CloudServers}
             layout={LayoutDefault}
           />
+          <Redirect to="/" />
         </Switch>
       )}
     />
