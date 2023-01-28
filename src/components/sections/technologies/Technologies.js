@@ -27,59 +27,59 @@ const TechnologiesContent = ({
   const techList = [
     {
       title: 'WSO2',
-      paragraph: 'Ajudamos você a conectar seus negócios.',
+      paragraph: 'We help you connect your business.',
       imageURL: require('../../../assets/images/wso2-logo.png'),
       link: 'wso2',
       description: [
         {
-          title: 'Instalação e Configuração',
-          subTitle: 'COMO PODES AJUDAR?',
+          title: 'Installation and Configuration',
+          subTitle: 'HOW CAN WE HELP?',
           paragraph:
-            'Nosso time está preparado para ajudar você a conectar suas aplicações e montar sua arquitetura de middleware com a plataforma de código aberto WSO2.',
-          imageURL: require('../../../assets/images/features-split-image-01.png'),
+            'Our team is prepared to help you connect your applications and set up your middleware architecture with the open-source WSO2 platform.',
+          imageURL: require('../../../assets/images/wso2/apim-rest.gif'),
         },
         {
           subTitle: null,
-          title: 'Plataforma',
+          title: 'Platform',
           paragraph:
-            'A WSO2 fornece uma série de ferramentas e soluções para ajudar as empresas a gerenciar e implementar APIs, integrar aplicativos e dados, e fornecer segurança e conformidade para operações digitais. A ferramenta é amplamente utilizada em ambientes de TI corporativos para ajudar a conectar sistemas e permitir a colaboração entre diferentes departamentos e sistemas.',
-          imageURL: require('../../../assets/images/features-split-image-02.png'),
+            'WSO2 provides a series of tools and solutions to help companies manage and implement APIs, integrate applications and data, and provide security and compliance for digital operations. The tool is widely used in corporate IT environments to help connect systems and enable collaboration between different departments and systems.',
+          imageURL: require('../../../assets/images/wso2/wso2-first-image.svg'),
         },
         {
-          subTitle: 'PRODUTOS WSO2',
-          title: 'Toda a stack de middleware',
+          subTitle: 'WSO2 PRODUCTS',
+          title: 'The entire middleware stack',
           paragraph:
-            'WSO2 API Manager: Plataforma de gerenciamento de API. <br/> WSO2 Enterprise Integrator: Plataforma de integração de aplicativos <br/> WSO2 Identity Server: Plataforma de gerenciamento de identidade.',
-          imageURL: require('../../../assets/images/features-split-image-03.png'),
+            '<b>WSO2 API Manager:</b> API management platform. <br/> <b>WSO2 Micro Integrator:</b> Application integration platform <br/> <b>WSO2 Identity Server:</b> Identity management platform.',
+          imageURL: require('../../../assets/images/wso2/microservices-integration.gif'),
         },
       ],
     },
     {
       title: 'Spring / Spring Boot',
-      paragraph: 'Ajudamos você a conectar seus negócios.',
+      paragraph: 'Spring and Spring Boot are popular Java frameworks that are widely used in developing enterprise applications.',
       imageURL: require('../../../assets/images/spring-logo.png'),
       link: 'spring',
       description: [
         {
-          title: 'Instalação e Configuração',
-          subTitle: 'COMO PODES AJUDAR?',
+          title: 'What is Spring?',
+          subTitle: 'SPRING',
           paragraph:
-            'Nosso time está preparado para ajudar você a conectar suas aplicações e montar sua arquitetura de middleware com a plataforma de código aberto WSO2.',
-          imageURL: require('../../../assets/images/features-split-image-01.png'),
+            'Spring is a lightweight framework that is used to develop enterprise applications, it provides a comprehensive infrastructure support for developing Java applications. It provides a lot of features such as support for dependency injection, a modular architecture, and the ability to integrate with other technologies.',
+          imageURL: require('../../../assets/images/spring/why-spring.svg'),
         },
         {
-          subTitle: null,
-          title: 'Plataforma',
+          subTitle: 'SPRING BOOT',
+          title: 'What is Spring Boot?',
           paragraph:
-            'A WSO2 fornece uma série de ferramentas e soluções para ajudar as empresas a gerenciar e implementar APIs, integrar aplicativos e dados, e fornecer segurança e conformidade para operações digitais. A ferramenta é amplamente utilizada em ambientes de TI corporativos para ajudar a conectar sistemas e permitir a colaboração entre diferentes departamentos e sistemas.',
-          imageURL: require('../../../assets/images/features-split-image-02.png'),
+            'Spring Boot is a convention-over-configuration framework that builds on top of Spring. It makes it easy to create stand-alone, production-grade Spring applications by providing a set of tools and libraries that simplify common tasks. Spring Boot provides features such as auto-configuration, the ability to run as a standalone application, and a command-line interface.',
+          imageURL: require('../../../assets/images/spring/microservices-boot.svg'),
         },
         {
-          subTitle: 'PRODUTOS WSO2',
-          title: 'Toda a stack de middleware',
+          subTitle: 'BENEFITS',
+          title: 'Why is it a good choice to use Spring',
           paragraph:
-            'WSO2 API Manager: Plataforma de gerenciamento de API. <br/> WSO2 Enterprise Integrator: Plataforma de integração de aplicativos <br/> WSO2 Identity Server: Plataforma de gerenciamento de identidade.',
-          imageURL: require('../../../assets/images/features-split-image-03.png'),
+            'There are many benefits to using Spring and Spring Boot for your enterprise application development projects. One of the main benefits is ease of development. Spring and Spring Boot provide a set of tools and libraries that simplify common tasks, making it easier to develop enterprise applications. Testability is another benefit of using Spring and Spring Boot, as they make it easy to write unit and integration tests for your application. Additionally, they are flexible and can be used to develop a wide range of applications, from simple web applications to complex microservices.',
+          imageURL: require('../../../assets/images/spring/diagram-microservices.svg'),
         },
       ],
     },

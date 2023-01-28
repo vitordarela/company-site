@@ -50,31 +50,30 @@ const CloudServersComponent = ({
 
   const sectionHeader = {
     title: 'Cloud Servers',
-    paragraph: 'We are using the best cloud solution to support our projects.',
+    paragraph: 'We are using the best cloud solutions to support our projects, utilizing multiple high performance cloud platforms to ensure our projects run smoothly and efficiently. This cloud solution is likely to be chosen based on the company\'s specific needs and requirements and provides the necessary features, scalability and reliability to support its projects.',
   }
 
   const cloudList = [
     {
-      title: 'GPC GOOGLE CLOUD',
-      subTitle: 'Acelere sua transformação digital',
+      title: 'GOOGLE CLOUD PLATFORM',
+      subTitle: 'ACCELERATE YOUR DIGITAL TRANSFORMATION',
       paragraph:
-        'Uma nuvem de transformação acelera a transformação digital de uma organização pela democratização de dados, modernização de apps e infraestruturas, conexões pessoais e transações confiáveis. O resultado é uma organização cujos funcionários podem usufruir de todos os benefícios da computação em nuvem para impulsionar a inovação.',
+        'Google Cloud is a cloud computing platform offered by Google. It offers a wide variety of products and services including computing, storage, networking, and artificial intelligence. The platform also offers options for scalability, high availability, and security. In addition, Google Cloud has integrations with other Google tools and services such as Google Drive and Google Analytics.',
       imageURL: require('../../assets/images/google-cloud-gpc.png'),
     },
     {
-      title: 'VERCEL',
-      subTitle: 'Plataforma Certa Para Desenvolvedores',
-      paragraph:
-        'O Vercel acelera o processo de criação, teste e implantação de páginas da Web compilando todo o código necessário em um único arquivo. Por sua vez, facilita o rastreamento de alterações, a depuração de erros e a garantia de um estilo consistente nas páginas.',
-      imageURL: require('../../assets/images/vercel.png'),
-    },
-
-    {
       title: 'DigitalOcean',
-      subTitle: 'Impulsione o crescimento dos negócios',
+      subTitle: 'Drive business growth',
       paragraph:
-        'As empresas crescem mais rapidamente quando os desenvolvedores podem criar na nuvem simples e acessível que adoram. A DigitalOcean tem os serviços de computação em nuvem de que você precisa, com preços previsíveis, documentação robusta e escalabilidade para dar suporte ao seu crescimento em qualquer estágio.',
+        'DigitalOcean is another popular cloud platform. It primarily focuses on offering simple and easy-to-use virtual servers, called "droplets." It also offers storage, networking and other similar resources to those offered by Google Cloud. The main difference is that DigitalOcean is more simple and easy-to-use, while Google Cloud is more robust and scalable.',
       imageURL: require('../../assets/images/digital-ocean.png'),
+    },
+    {
+      title: 'VERCEL',
+      subTitle: 'Right Platform for Developers',
+      paragraph:
+        'Vercel is another cloud platform option that is gaining popularity. It is a platform-as-a-service (PaaS) that is focused on web development and hosting. It offers a variety of features including automatic HTTPS, continuous deployment, and global CDN. It also offers a simple and easy-to-use interface for managing and deploying web projects. Vercel is a great choice for teams that are focused on web development and want a simple and fast way to deploy and host their projects. Vercel is also known for its fast and reliable hosting for static sites and Jamstack projects. It integrates well with other development tools and frameworks such as React, Vue, and Next.js making it a great choice for web development teams.',
+      imageURL: require('../../assets/images/vercel.png'),
     },
   ]
 
