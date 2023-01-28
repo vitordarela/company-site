@@ -11,6 +11,7 @@ import LayoutDefault from './layouts/LayoutDefault'
 import Home from './views/Home'
 import Technologies from './views/Technologies'
 import CloudServers from './views/CloudServers'
+import ContactForm from './views/ContactForm'
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE)
@@ -54,6 +55,12 @@ const App = () => {
             exact
             path="/cloud/servers"
             component={CloudServers}
+            layout={LayoutDefault}
+          />
+          <AppRoute
+            exact
+            path="/contact/formular"
+            component={ContactForm}
             layout={LayoutDefault}
           />
           <Redirect to="/" />
