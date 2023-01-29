@@ -40,6 +40,11 @@
     .split-item-content,
     .split-item-image {
       flex: 1;
+
+      h3 {
+        margin: 0;
+      }
+
       input {
         margin: ($split-item--inner-padding-h / 5) 0;
       }
@@ -99,6 +104,14 @@
 
     &:has(.split-item-content-right) {
       padding-top: 0;
+    }
+  }
+
+  form {
+    padding-top: $split-item--padding-v__desktop * 0.5;
+    padding-bottom: $split-item--padding-v__desktop * 0.5;
+    .split-item {
+      padding-bottom: $split-item--padding-v__desktop * 0.1;
     }
   }
 }
