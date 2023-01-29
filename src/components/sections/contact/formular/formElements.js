@@ -9,11 +9,25 @@ import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 
 const FormSchema = z.object({
-  name: z.string().min(3),
-  company: z.string().min(3),
-  email: z.string().email(),
-  phone: z.coerce.string().min(9).max(9),
-  description: z.string().min(100).max(200),
+  name: z
+    .string()
+    .min(3, { message: 'Name must contain at least 3 character(s)' }),
+  company: z
+    .string()
+    .min(3, { message: 'Company name must contain at least 3 character(s)' }),
+  email: z.string().email({ message: 'Email is not valid.' }),
+  phone: z.coerce
+    .string()
+    .regex(/^(?:([9][1236])|([2][1-9]))[0-9]{7}$/, {
+      message: 'Telephone number is not valid.',
+    })
+    .max(9, {
+      message: 'Telephone number is not valid.',
+    }),
+  description: z
+    .string()
+    .min(100, { message: 'Description must contain at least 100 character(s)' })
+    .max(240, { message: 'Description must not exceed 240 character(s)' }),
 })
 
 const propTypes = {
@@ -56,29 +70,38 @@ const FormElements = ({
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState: { errors, isDirty, isValid },
+    reset,
   } = useForm({ resolver: zodResolver(FormSchema), mode: 'onChange' })
+
+  function handleSubmitForm(data) {
+    reset()
+    handleSubmitData(data)
+  }
 
   return (
     data && (
       <>
-        <form onSubmit={handleSubmit(handleSubmitData)}>
-          <div className={splitClasses}>
-            <div className="split-item-error">
-              {errors.name?.message && <p>{errors.name?.message}</p>}
-              {errors.company?.message && <p>{errors.company?.message}</p>}
-              {errors.email?.message && <p>{errors.email?.message}</p>}
-              {errors.phone?.message && <p>{errors.phone?.message}</p>}
-            </div>
-
+        <div className={splitClasses}>
+          <form onSubmit={handleSubmit(handleSubmitForm)}>
             <div className="split-item">
               <div
                 className={`split-item-content center-content-mobile reveal-from-left`}
                 data-reveal-container=".split-item"
               >
-                <div className="group-title text-xxs text-color-primary fw-600 tt-u">
-                  {data[0].title}
-                </div>
+                <h3 className="group-title text-xxs text-color-primary fw-600 tt-u">
+                  {data.titles[0]}
+                </h3>
+
+                <ul
+                  className={`item-error ${
+                    isDirty && !isValid ? 'item-error-visible' : null
+                  }`}
+                >
+                  {errors?.name && <li>{errors.name?.message}</li>}
+                  {errors?.company && <li>{errors.company?.message}</li>}
+                </ul>
+
                 <Input
                   register={register}
                   name="name"
@@ -103,6 +126,15 @@ const FormElements = ({
                 className={`split-item-content center-content-mobile reveal-from-right`}
                 data-reveal-container=".split-item"
               >
+                <ul
+                  className={`item-error ${
+                    isDirty && !isValid ? 'item-error-visible' : null
+                  }`}
+                >
+                  {errors?.email && <li>{errors.email?.message}</li>}
+                  {errors?.phone && <li>{errors.phone?.message}</li>}
+                </ul>
+
                 <Input
                   register={register}
                   name="email"
@@ -125,20 +157,25 @@ const FormElements = ({
               </div>
             </div>
 
-            <div className="split-item-error">
-              {errors.description?.message && (
-                <p>{errors.description?.message}</p>
-              )}
-            </div>
-
             <div className="split-item">
               <div
                 className={`split-item-content center-content-mobile reveal-from-bottom`}
                 data-reveal-container=".split-item"
               >
-                <div className="group-title text-xxs text-color-primary fw-600 tt-u">
-                  {data[1].title}
-                </div>
+                <h3 className="group-title text-xxs text-color-primary fw-600 tt-u">
+                  {data.titles[1]}
+                </h3>
+
+                <ul
+                  className={`item-error ${
+                    isDirty && !isValid ? 'item-error-visible' : null
+                  }`}
+                >
+                  {errors?.description && (
+                    <li>{errors.description?.message}</li>
+                  )}
+                </ul>
+
                 <Input
                   register={register}
                   name="description"
@@ -162,8 +199,8 @@ const FormElements = ({
                 </Button>
               </div>
             </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </>
     )
   )
