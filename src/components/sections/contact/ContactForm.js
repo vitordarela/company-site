@@ -5,6 +5,9 @@ import SectionHeader from '../partials/SectionHeader'
 import FormElements from './formular/formElements'
 import Modal from '../../elements/Modal'
 import FormSuccess from './formular/formSuccess'
+import FormError from './formular/formError'
+import { EmailjsSend } from '../../../lib/emailjs'
+import Image from '../../elements/Image'
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -43,6 +46,8 @@ const ContactFormComponent = ({
     bottomDivider && 'has-bottom-divider',
   )
 
+  const [isSending, setIsSending] = useState(false)
+  const [isEmailSent, setIsEmailSent] = useState(false)
   const [formModalActive, setFormModalActive] = useState(false)
 
   const openModal = () => {
@@ -53,15 +58,14 @@ const ContactFormComponent = ({
     setFormModalActive(false)
   }
 
-  function handleSubmitDataToEmail(data) {
-    console.log('name', data.name)
-    console.log('company', data.company)
-    console.log('email', data.email)
-    console.log('phone', data.phone)
-    console.log('description', data.description)
-
+  async function handleSubmitDataToEmail(data) {
     if (data) {
+      setIsSending(true)
       openModal()
+      await EmailjsSend(data).then((response) => {
+        setIsSending(false)
+        setIsEmailSent(response.isEmailSent)
+      })
     }
   }
 
@@ -77,9 +81,17 @@ const ContactFormComponent = ({
   }
 
   const modalHeader = {
-    title: 'Request sent',
-    paragraph:
-      'Your request was successfully sent! We will respond as quickly as possible.',
+    success: {
+      title: 'Request sent',
+      paragraph:
+        'Your request was successfully sent! We will respond as quickly as possible.',
+    },
+
+    error: {
+      title: 'Request error',
+      paragraph:
+        'Your request was not sent. An error occurred while sending the request. Please, try again later.',
+    },
   }
 
   return (
@@ -96,7 +108,23 @@ const ContactFormComponent = ({
             show={formModalActive}
             handleClose={closeModal}
           >
-            <FormSuccess data={modalHeader} handleClose={closeModal} />
+            {isSending ? (
+              <div className="center-content">
+                <Image
+                  src={require('../../../assets/images/loading.gif')}
+                  alt="Request Sent"
+                  width={100}
+                  height={100}
+                />
+              </div>
+            ) : isEmailSent ? (
+              <FormSuccess
+                data={modalHeader.success}
+                handleClose={closeModal}
+              />
+            ) : (
+              <FormError data={modalHeader.error} handleClose={closeModal} />
+            )}
           </Modal>
         </div>
       </div>
