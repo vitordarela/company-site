@@ -71,7 +71,7 @@ const ContactFormComponent = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <FormElements
-            data={sectionHeader.sections}
+            data={sectionHeader}
             handleSubmitData={handleSubmitDataToEmail}
           />
         </div>
