@@ -52,6 +52,45 @@
       .group-title {
         margin-bottom: 0.5rem;
       }
+
+      .item-error {
+        width: 100%;
+        padding: 0 2rem;
+        margin-bottom: 0.5rem;
+        font-size: 0.65rem;
+        line-height: 18px;
+        letter-spacing: -0.1px;
+        font-weight: 600;
+        text-align: left;
+
+        color: rgba(240, 128, 128, 0.7);
+        background-color: transparent;
+        border: 1px solid transparent;
+        opacity: 0;
+        transform: translateX(-50px);
+        transition: background 0.3s, border-color 0.3s, opacity 0.3s,
+          transform 0.5s ease-in-out;
+
+        li {
+          margin: 0;
+          padding: 0;
+
+          &:first-child {
+            padding-top: 0.5rem;
+          }
+
+          &:last-child {
+            padding-bottom: 0.5rem;
+          }
+        }
+      }
+
+      .item-error-visible:has(li) {
+        opacity: 1;
+        background: #25282c;
+        border-color: rgba(240, 128, 128, 0.1);
+        transform: translateX(0);
+      }
     }
 
     .split-item-content-right {
