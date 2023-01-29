@@ -59,7 +59,7 @@ const App = () => {
           />
           <AppRoute
             exact
-            path="/contact/formular"
+            path="/contact"
             component={ContactForm}
             layout={LayoutDefault}
           />

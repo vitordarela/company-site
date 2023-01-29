@@ -66,7 +66,7 @@ const ContactFormComponent = ({
   }
 
   const sectionHeader = {
-    title: 'Request a quote',
+    title: 'Talk with us',
     paragraph:
       'We are always open to collaborations where we can all be a part of the same team. Ready to move forward?',
   }

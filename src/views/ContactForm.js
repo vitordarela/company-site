@@ -13,7 +13,7 @@ const ContactForm = () => {
         imageFill
         className="illustration-section-02"
       />
-      <Cta split />
+      
     </>
   )
 }
