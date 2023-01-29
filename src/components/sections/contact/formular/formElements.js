@@ -80,7 +80,7 @@ const FormElements = ({
   }
 
   return (
-    data.sections && (
+    data && (
       <>
         <div className={splitClasses}>
           <form onSubmit={handleSubmit(handleSubmitForm)}>
@@ -90,7 +90,7 @@ const FormElements = ({
                 data-reveal-container=".split-item"
               >
                 <h3 className="group-title text-xxs text-color-primary fw-600 tt-u">
-                  {data.sections[0].title}
+                  {data.titles[0]}
                 </h3>
 
                 <ul
@@ -163,7 +163,7 @@ const FormElements = ({
                 data-reveal-container=".split-item"
               >
                 <h3 className="group-title text-xxs text-color-primary fw-600 tt-u">
-                  {data.sections[1].title}
+                  {data.titles[1]}
                 </h3>
 
                 <ul
