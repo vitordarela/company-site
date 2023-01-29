@@ -82,8 +82,8 @@ const FormElements = ({
   return (
     data.sections && (
       <>
-        <form onSubmit={handleSubmit(handleSubmitForm)}>
-          <div className={splitClasses}>
+        <div className={splitClasses}>
+          <form onSubmit={handleSubmit(handleSubmitForm)}>
             <div className="split-item">
               <div
                 className={`split-item-content center-content-mobile reveal-from-left`}
@@ -199,8 +199,8 @@ const FormElements = ({
                 </Button>
               </div>
             </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </>
     )
   )
