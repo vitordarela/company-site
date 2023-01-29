@@ -6,7 +6,6 @@
   description
 
   template_params: {
-        to_name: 'CodeBe - Request form',
         reply_to: data.email,
         from_name: data.name,
         from_company: data.company,
@@ -27,7 +26,6 @@ export async function EmailjsSend(data) {
       template_id: process.env.REACT_APP_EMAIL_TEMPLATE_ID,
       user_id: process.env.REACT_APP_EMAIL_USER_ID,
       template_params: {
-        to_name: 'CodeBe - Request form',
         reply_to: data.email,
         from_name: data.name,
         from_company: data.company,
