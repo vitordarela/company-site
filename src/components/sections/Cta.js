@@ -90,7 +90,10 @@ const Cta = ({
       <div className="container">
         <div className={innerClasses}>
           <div className="cta-slogan">
-            <h3 className="m-0">Do you want to be on top of the news?</h3>
+            <h3 className="m-0">
+              Do you think we can help? Leave your email and we'll be in touch
+              with you.
+            </h3>
           </div>
           <form
             onSubmit={handleSubmit(handleFormSubmit)}
