@@ -12,6 +12,7 @@ import Home from './views/Home'
 import Technologies from './views/Technologies'
 import CloudServers from './views/CloudServers'
 import ContactForm from './views/ContactForm'
+import AboutUs from './views/AboutUs'
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE)
@@ -61,6 +62,12 @@ const App = () => {
             exact
             path="/contact"
             component={ContactForm}
+            layout={LayoutDefault}
+          />
+          <AppRoute
+            exact
+            path="/about-us"
+            component={AboutUs}
             layout={LayoutDefault}
           />
           <Redirect to="/" />
