@@ -27,11 +27,11 @@ export async function EmailjsSend(data) {
       user_id: process.env.REACT_APP_EMAIL_USER_ID,
       template_params: {
         reply_to: data.email,
-        from_name: data.name,
-        from_company: data.company,
+        from_name: data?.name ? data.name : null,
+        from_company: data?.company ? data.company : null,
         from_email: data.email,
-        from_phone: data.phone,
-        from_description: data.description,
+        from_phone: data?.phone ? data.phone : null,
+        from_description: data?.description ? data.description : null,
       },
     }),
   }

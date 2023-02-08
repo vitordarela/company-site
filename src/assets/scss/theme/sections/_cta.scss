@@ -1,32 +1,73 @@
 .cta {
-
-    .form-input {
-        border-color: transparent;
-        border-radius: 2px;
-    }
+  .form-input {
+    border-color: transparent;
+    border-radius: 2px;
+  }
 }
 
 .cta-inner {
-	padding-left: 16px;
-	padding-right: 16px;
-    background-color: get-color(primary, 3);
-	background-image: url(../../../images/cta-illustration.svg);
-	background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;    
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: get-color(primary, 3);
+  background-image: url(../../../images/cta-illustration.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right bottom;
+
+  form {
+    position: relative;
+
+    .label-error {
+      position: absolute;
+      z-index: 10;
+      left: 0;
+      top: -30px;
+      font-size: 0.65rem;
+      color: rgb(15, 15, 15);
+
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40px;
+      height: 100%;
+      background-color: #eceded;
+
+      border-color: transparent;
+      border-radius: 2px;
+
+      display: flex;
+      place-content: center;
+
+      inset: all;
+      border: none;
+      cursor: pointer;
+
+      &:disabled {
+        opacity: 0.1;
+        cursor: not-allowed;
+      }
+      &:not(:disabled):hover {
+        background-color: #e1e1e1;
+      }
+    }
+  }
 }
 
-@include media( '>medium' ) {
-
-.cta {
-
+@include media('>medium') {
+  .cta {
     .form-input {
-        min-width: 280px;
+      min-width: 280px;
     }
-}    
+  }
 
-	.cta-inner {
-		padding-left: 48px;
-		padding-right: 48px;
-	}
+  .cta-inner {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
 }
