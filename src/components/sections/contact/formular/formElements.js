@@ -152,7 +152,7 @@ const FormElements = ({
                   label="Phone"
                   labelHidden
                   placeholder="Phone"
-                  required
+                  
                 />
               </div>
             </div>

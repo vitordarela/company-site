@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import Image from '../../elements/Image'
+import { date } from 'zod'
 
 const propTypes = {
   data: PropTypes.shape({
@@ -48,7 +49,13 @@ const SplitItem = ({
             )}
             data-reveal-container=".split-item"
           >
-            <Image src={data.imageURL} alt={data.title} />
+            <div
+              className="m-0"
+              dangerouslySetInnerHTML={{ __html: data.videoIFrame }}
+            />
+            { data.imageURL != null &&
+              <Image src={data.imageURL} alt={data.title} />
+            }
           </div>
         </div>
       )}

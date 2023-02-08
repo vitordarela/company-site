@@ -57,6 +57,7 @@ const TechnologiesSelected = ({
             data={{ title: tech.title, paragraph: tech.paragraph }}
             className="center-content"
           />
+
           <div className={splitClasses}>
             {tech.description &&
               tech.description.map((techData, index) => (

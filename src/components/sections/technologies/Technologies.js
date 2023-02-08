@@ -27,10 +27,11 @@ const TechnologiesContent = ({
   const techList = [
     {
       title: 'WSO2',
-      paragraph: 'We help you connect your business.',
+      paragraph: 'WSO2 is a leading open source platform for building, integrating, and managing APIs, applications, and microservices. With its flexible architecture and comprehensive set of integrated tools, WSO2 helps organizations drive digital transformation by delivering seamless and secure experiences to customers, partners, and employees.',
       imageURL: require('../../../assets/images/wso2-logo.png'),
       link: 'wso2',
       description: [
+
         {
           title: 'Installation and Configuration',
           subTitle: 'HOW CAN WE HELP?',
@@ -51,6 +52,62 @@ const TechnologiesContent = ({
           paragraph:
             '<b>WSO2 API Manager:</b> API management platform. <br/> <b>WSO2 Micro Integrator:</b> Application integration platform <br/> <b>WSO2 Identity Server:</b> Identity management platform.',
           imageURL: require('../../../assets/images/wso2/microservices-integration.gif'),
+        },
+        {
+          title: 'WSO2 API Manager',
+          subTitle: 'WSO2',
+          paragraph:
+          'WSO2 API Manager is a comprehensive solution for managing APIs throughout their lifecycle. With features such as API creation, publishing, management, and monetization, the WSO2 API Manager streamlines the process of developing and delivering secure and scalable APIs.',
+          imageURL: null,
+          videoIFrame: '<iframe width="560" height="315" src="https://www.youtube.com/embed/nr1cFyxVdDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        },
+        {
+          subTitle: 'Capabilities',
+          title: 'Easily and securely expose APIs to both internal and external consumers.',
+          paragraph:
+            'Implement industry-standard authorization flows — such as OAuth, OpenID Connect, and JWTs — out of the box and integrate with your existing identity access or key management tools.',
+          imageURL: require('../../../assets/images/wso2/apim-capabilities.gif'),
+        },
+        {
+          subTitle: null,
+          title: 'Enable design and runtime governance for the entire lifecycle of your APIs.',
+          paragraph:
+            'Build APIs from existing services, manage APIs from internally built applications and from third-party providers, and monitor their usage and performance from inception to retirement.',
+          imageURL: require('../../../assets/images/wso2/apim-governance.gif'),
+        },
+        {
+          subTitle: null,
+          title: 'Get business insights and intelligence through APIs.',
+          paragraph:
+            'Provide real-time access to API usage and performance statistics to decision-makers to optimize your developer support, continuously improve your services, and drive further adoption to reach your business goals.',
+          imageURL: require('../../../assets/images/wso2/apim-insights.gif'),
+        },
+        {
+          subTitle: null,
+          title: 'Flexible deployment models adapt to your infrastructure while keeping service discovery seamless for developers.',
+          paragraph:
+            'Deploy in the cloud, in your private data centers, or anywhere in between while cataloging your services in a single location to make it easy for your developers to find what they need to efficiently build their applications.',
+          imageURL: require('../../../assets/images/wso2/apim-flexible.gif'),
+        },
+        {
+          subTitle: null,
+          title: 'Support modern services including REST, GraphQL, and Async API, and integrate your API workflows with your CI/CD pipeline.',
+          paragraph:
+            'Strategically adopt modern service delivery and development paradigms without leaving behind the legacy systems that made you successful in the first place.',
+          imageURL: require('../../../assets/images/wso2/apim-modern-services.gif'),
+        },
+        {
+          subTitle: null,
+          title: 'Advanced integration support.',
+          paragraph:
+            'The integration runtime supports creating composite microservices, service, and API hosting needs, message routing, transformation, message mediation, service orchestration, as well as consuming and processing streaming data.',
+          imageURL: require('../../../assets/images/wso2/apim-integration-support.gif'),
+        },
+        {
+          subTitle: null,
+          title: 'Powerful Graphical / CLI tooling.',
+          paragraph: 'Complete API development support with API publisher. Visually design, develop, debug, test, and deploy integration flows with Integration Studio. Complete set of commands to manage API gateway and micro integrator runtimes with API controller (CLI) tool',
+          imageURL: require('../../../assets/images/wso2/apim-tooling.gif'),
         },
       ],
     },
@@ -87,7 +144,7 @@ const TechnologiesContent = ({
       title: 'React / React Native',
       paragraph: 'Ajudamos você a conectar seus negócios.',
       imageURL: require('../../../assets/images/react-logo.png'),
-      link: 'reactjs',
+      link: '',
       description: [
         {
           title: 'Instalação e Configuração',
@@ -116,7 +173,7 @@ const TechnologiesContent = ({
       title: '.NET Core / Framework',
       paragraph: 'Ajudamos você a conectar seus negócios.',
       imageURL: require('../../../assets/images/netcore-logo.png'),
-      link: 'dotnet',
+      link: '',
       description: [
         {
           title: 'Instalação e Configuração',
@@ -145,7 +202,7 @@ const TechnologiesContent = ({
       title: 'Node.js',
       paragraph: 'Ajudamos você a conectar seus negócios.',
       imageURL: require('../../../assets/images/nodejs-logo.png'),
-      link: 'nodejs',
+      link: '',
       description: [
         {
           title: 'Instalação e Configuração',
@@ -174,7 +231,7 @@ const TechnologiesContent = ({
       title: 'Vue.js',
       paragraph: 'Ajudamos você a conectar seus negócios.',
       imageURL: require('../../../assets/images/vue-js-logo.png'),
-      link: 'vuejs',
+      link: '',
       description: [
         {
           title: 'Instalação e Configuração',
@@ -203,7 +260,7 @@ const TechnologiesContent = ({
       title: 'Angular',
       paragraph: 'Ajudamos você a conectar seus negócios.',
       imageURL: require('../../../assets/images/angular-logo.png'),
-      link: 'angularjs',
+      link: '',
       description: [
         {
           title: 'Instalação e Configuração',
@@ -232,7 +289,7 @@ const TechnologiesContent = ({
       title: 'WordPress',
       paragraph: 'Ajudamos você a conectar seus negócios.',
       imageURL: require('../../../assets/images/wordpress-logo.png'),
-      link: 'wordpress',
+      link: '',
       description: [
         {
           title: 'Instalação e Configuração',
@@ -261,7 +318,7 @@ const TechnologiesContent = ({
       title: 'Shopify',
       paragraph: 'Ajudamos você a conectar seus negócios.',
       imageURL: require('../../../assets/images/shopify-logo.png'),
-      link: 'shopify',
+      link: '',
       description: [
         {
           title: 'Instalação e Configuração',
