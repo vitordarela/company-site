@@ -73,7 +73,7 @@ const Cta = ({
     setEmailStatus((prev) => ({ ...prev, isSending: true }))
 
     await EmailjsSend({
-      email: data.email,
+      email: data.newsletterEmail,
       description: location.pathname,
     }).then((response) => {
       setEmailStatus({
