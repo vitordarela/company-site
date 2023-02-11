@@ -3,6 +3,7 @@ import { useLocation, Switch, Redirect } from 'react-router-dom'
 import AppRoute from './utils/AppRoute'
 import ScrollReveal from './utils/ScrollReveal'
 import ReactGA from 'react-ga'
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault'
@@ -36,57 +37,72 @@ const App = () => {
   }, [location])
 
   return (
-    <ScrollReveal
-      ref={childRef}
-      children={() => (
-        <Switch>
-          <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-          <AppRoute
-            exact
-            path="/technologies"
-            component={Technologies}
-            layout={LayoutDefault}
-          />
-          <AppRoute
-            exact
-            path="/technologies/:tech"
-            component={Technologies}
-            layout={LayoutDefault}
-          />
-          <AppRoute
-            exact
-            path="/services"
-            component={Services}
-            layout={LayoutDefault}
-          />
-          <AppRoute
-            exact
-            path="/services/:service"
-            component={Services}
-            layout={LayoutDefault}
-          />
-          <AppRoute
-            exact
-            path="/cloud/servers"
-            component={CloudServers}
-            layout={LayoutDefault}
-          />
-          <AppRoute
-            exact
-            path="/contact"
-            component={ContactForm}
-            layout={LayoutDefault}
-          />
-          <AppRoute
-            exact
-            path="/about-us"
-            component={AboutUs}
-            layout={LayoutDefault}
-          />
-          <Redirect to="/" />
-        </Switch>
-      )}
-    />
+    <HelmetProvider>
+      <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="description" content="We create your idea. As Experts in areas such as Middleware, Software Development, E-commerce & Mobile, we are the reference partner for Consultancy and IT Services." />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="CodeBe - Experts in Middleware, Software Development &amp; Mobile" />
+        <meta property="og:description" content="As Experts in areas such as Middleware, Software Development, E-commerce & Mobile, we are the reference partner for Consultancy and IT Services." />
+        <meta property="og:url" content="https://www.codebe.dev/" />
+        <meta property="og:site_name" content="CodeBe" />
+        <title>CodeBe - Experts in Middleware, Software Development & Mobile</title>
+      </Helmet>
+      <ScrollReveal
+        ref={childRef}
+        children={() => (
+          <Switch>
+            <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+            <AppRoute
+              exact
+              path="/technologies"
+              component={Technologies}
+              layout={LayoutDefault}
+            />
+            <AppRoute
+              exact
+              path="/technologies/:tech"
+              component={Technologies}
+              layout={LayoutDefault}
+            />
+            <AppRoute
+              exact
+              path="/services"
+              component={Services}
+              layout={LayoutDefault}
+            />
+            <AppRoute
+              exact
+              path="/services/:service"
+              component={Services}
+              layout={LayoutDefault}
+            />
+            <AppRoute
+              exact
+              path="/cloud/servers"
+              component={CloudServers}
+              layout={LayoutDefault}
+            />
+            <AppRoute
+              exact
+              path="/contact"
+              component={ContactForm}
+              layout={LayoutDefault}
+            />
+            <AppRoute
+              exact
+              path="/about-us"
+              component={AboutUs}
+              layout={LayoutDefault}
+            />
+            <Redirect to="/" />
+          </Switch>
+        )}
+      />
+    </HelmetProvider>
   )
 }
 
