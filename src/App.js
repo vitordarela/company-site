@@ -13,6 +13,7 @@ import Technologies from './views/Technologies'
 import CloudServers from './views/CloudServers'
 import ContactForm from './views/ContactForm'
 import AboutUs from './views/AboutUs'
+import Services from './views/Services'
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE)
@@ -50,6 +51,18 @@ const App = () => {
             exact
             path="/technologies/:tech"
             component={Technologies}
+            layout={LayoutDefault}
+          />
+          <AppRoute
+            exact
+            path="/services"
+            component={Services}
+            layout={LayoutDefault}
+          />
+          <AppRoute
+            exact
+            path="/services/:service"
+            component={Services}
             layout={LayoutDefault}
           />
           <AppRoute

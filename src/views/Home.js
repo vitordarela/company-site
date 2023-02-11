@@ -6,11 +6,6 @@ import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 
 const Home = () => {
-
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  });
-
   return (
     <>
       <Hero className="illustration-section-01" />

@@ -5,11 +5,6 @@ import AboutUsComponent from '../components/sections/AboutUs'
 import Cta from '../components/sections/Cta'
 
 const CloudServers = () => {
-
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    });
-
     return (
         <>
             <AboutUsComponent
