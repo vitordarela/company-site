@@ -16,7 +16,7 @@ import ContactForm from './views/ContactForm'
 import AboutUs from './views/AboutUs'
 import Services from './views/Services'
 
-// Initialize Google Analytics
+// Initialize Google Analytics.
 ReactGA.initialize(process.env.REACT_APP_GA_CODE)
 
 const trackPage = (page) => {
