@@ -25,6 +25,7 @@ const FormSuccess = ({ data, handleClose }) => {
   }
 
   useEffect(() => {
+    window.gtag('config', 'AW-11095834681');
     window.gtag('event', 'conversion', {'send_to': 'AW-11095834681/cCvPCPuYm44YELmA9Kop'});
   });
 
