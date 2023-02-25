@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import PropTypes from 'prop-types'
 import SectionHeader from '../../partials/SectionHeader'
 import Button from '../../../elements/Button'
@@ -23,6 +23,10 @@ const FormSuccess = ({ data, handleClose }) => {
     e.stopPropagation()
     handleClose()
   }
+
+  useEffect(() => {
+    window.gtag('event', 'conversion', {'send_to': 'AW-11095834681/cCvPCPuYm44YELmA9Kop'});
+  });
 
   return (
     data && (
