@@ -42,13 +42,22 @@ const App = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <meta name="description" content="We create your idea. As Experts in areas such as Middleware, Software Development, E-commerce & Mobile, we are the reference partner for Consultancy and IT Services." />
-        <meta property="og:locale" content="en_US" />
+        <meta name="description" content="CodeBe. We create your idea. As Experts in areas such as Middleware, Software Development, E-commerce & Mobile, we are the reference partner for Consultancy and IT Services." />
+        <meta name="title" content="CodeBe - Experts in Middleware, Software Development & Mobile" />
+
         <meta property="og:type" content="website" />
         <meta property="og:title" content="CodeBe - Experts in Middleware, Software Development &amp; Mobile" />
-        <meta property="og:description" content="As Experts in areas such as Middleware, Software Development, E-commerce & Mobile, we are the reference partner for Consultancy and IT Services." />
+        <meta property="og:description" content="CodeBe. As Experts in areas such as Middleware, Software Development, E-commerce & Mobile, we are the reference partner for Consultancy and IT Services." />
         <meta property="og:url" content="https://www.codebe.dev/" />
         <meta property="og:site_name" content="CodeBe" />
+        <meta property="og:image" content="https://www.codebe.dev/logo.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.codebe.dev/" />
+        <meta property="twitter:title" content="CodeBe - Experts in Middleware, Software Development & Mobile" />
+        <meta property="twitter:description" content="CodeBe. As Experts in areas such as Middleware, Software Development, E-commerce & Mobile, we are the reference partner for Consultancy and IT Services." />
+        <meta property="twitter:image" content="https://www.codebe.dev/logo.png" />
+
         <title>CodeBe - Experts in Middleware, Software Development & Mobile</title>
       </Helmet>
       <ScrollReveal

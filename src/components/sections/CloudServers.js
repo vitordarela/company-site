@@ -3,6 +3,7 @@ import classNames from 'classnames'
 import { SectionSplitProps } from '../../utils/SectionProps'
 import SectionHeader from './partials/SectionHeader'
 import SplitItem from './partials/SplitItem'
+import { Helmet } from "react-helmet-async";
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -79,6 +80,21 @@ const CloudServersComponent = ({
 
   return (
     <section {...props} className={outerClasses}>
+       <Helmet>
+        <meta name="description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } />
+        <meta name="title" content={ "CodeBe - " + sectionHeader.title } />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={ "CodeBe - " + sectionHeader.title } />
+        <meta property="og:description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } />
+        <meta property="og:url" content={ "https://www.codebe.dev/cloud/servers" } />
+
+        <meta property="twitter:title" content={ "CodeBe "+ sectionHeader.title } />
+        <meta property="twitter:description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } />
+        <meta property="twitter:url" content={ "https://www.codebe.dev/cloud/servers" } />
+
+        <title>CodeBe - { sectionHeader.title }</title>
+      </Helmet>
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />

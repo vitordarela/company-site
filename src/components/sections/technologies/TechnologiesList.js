@@ -3,6 +3,7 @@ import classNames from 'classnames'
 import { SectionTilesProps } from '../../../utils/SectionProps'
 import SectionHeader from '../partials/SectionHeader'
 import TechnologiesLink from './partials/TechnologiesLink'
+import { Helmet } from "react-helmet-async";
 
 const propTypes = {
   ...SectionTilesProps.types,
@@ -49,6 +50,21 @@ const TechnologiesList = ({
 
   return (
     <section {...props} className={outerClasses}>
+      <Helmet>
+        <meta name="description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } />
+        <meta name="title" content={ "CodeBe - " + sectionHeader.title +" - " + sectionHeader.paragraph } />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={ "CodeBe - " + sectionHeader.title +" - " + sectionHeader.paragraph } />
+        <meta property="og:description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } />
+        <meta property="og:url" content={ "https://www.codebe.dev/technologies" } />
+
+        <meta property="twitter:title" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } />
+        <meta property="twitter:description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } />
+        <meta property="twitter:url" content={ "https://www.codebe.dev/technologies" } />
+
+        <title>CodeBe - { sectionHeader.title +" - " + sectionHeader.paragraph }</title>
+      </Helmet>
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />

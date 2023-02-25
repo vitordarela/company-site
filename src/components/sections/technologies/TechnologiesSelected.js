@@ -3,6 +3,7 @@ import classNames from 'classnames'
 import { SectionSplitProps } from '../../../utils/SectionProps'
 import SectionHeader from '../partials/SectionHeader'
 import SplitItem from '../partials/SplitItem'
+import { Helmet } from "react-helmet-async";
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -51,6 +52,21 @@ const TechnologiesSelected = ({
 
   return (
     <section {...props} className={outerClasses}>
+       <Helmet>
+        <meta name="description" content={ "CodeBe "+ tech.title +" Technology - " + tech.paragraph } />
+        <meta name="title" content={ "CodeBe - " + tech.title +" Technology" } />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={ "CodeBe - " + tech.title +" Technology" } />
+        <meta property="og:description" content={ "CodeBe "+ tech.title +" Technology - " + tech.paragraph } />
+        <meta property="og:url" content={ "https://www.codebe.dev/technologies/" + tech.link } />
+
+        <meta property="twitter:title" content={ "CodeBe - " + tech.title +" Technology" } />
+        <meta property="twitter:description" content={ "CodeBe "+ tech.title +" Technology - " + tech.paragraph } />
+        <meta property="twitter:url" content={ "https://www.codebe.dev/technologies/" + tech.link } />
+
+        <title>CodeBe - { tech.title +" Technology" }</title>
+      </Helmet>
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader
