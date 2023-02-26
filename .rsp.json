@@ -1,0 +1,15 @@
+{
+    "buildDirectory": "./build",
+    "routes": [
+      "/",
+      "/about-us",
+      "/services",
+      "/services/wso2",
+      "/services/ecommerce",
+      "/technologies",
+      "/technologies/wso2",
+      "/technologies/spring",
+      "/cloud/servers",
+      "/contact"
+    ]
+  }
