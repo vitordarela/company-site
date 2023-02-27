@@ -22,9 +22,9 @@ export async function EmailjsSend(data) {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      service_id: process.env.REACT_APP_EMAIL_SERVICE_ID,
-      template_id: process.env.REACT_APP_EMAIL_TEMPLATE_ID,
-      user_id: process.env.REACT_APP_EMAIL_USER_ID,
+      service_id: process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID,
+      template_id: process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID,
+      user_id: process.env.NEXT_PUBLIC_EMAIL_USER_ID,
       template_params: {
         reply_to: data.email,
         from_name: data?.name ? data.name : null,

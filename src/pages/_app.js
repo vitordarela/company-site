@@ -12,7 +12,7 @@ const StopHydrationWrapper = ({ children }) => {
 };
 
 // Initialize Google Analytics.
-ReactGA.initialize(process.env.REACT_APP_GA_CODE)
+ReactGA.initialize(process.env.NEXT_PUBLIC_GA_CODE)
 
 const trackPage = (page) => {
   ReactGA.set({ page })
