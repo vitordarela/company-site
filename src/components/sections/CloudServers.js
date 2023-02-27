@@ -3,7 +3,7 @@ import classNames from 'classnames'
 import { SectionSplitProps } from '../../utils/SectionProps'
 import SectionHeader from './partials/SectionHeader'
 import SplitItem from './partials/SplitItem'
-import { Helmet } from "react-helmet-async";
+import Head from "next/head";
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -80,7 +80,7 @@ const CloudServersComponent = ({
 
   return (
     <section {...props} className={outerClasses}>
-       <Helmet>
+       <Head>
         <meta name="description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } />
         <meta name="title" content={ "CodeBe - " + sectionHeader.title } />
 
@@ -94,7 +94,7 @@ const CloudServersComponent = ({
         <meta property="twitter:url" content={ "https://www.codebe.dev/cloud/servers" } />
 
         <title>CodeBe - { sectionHeader.title }</title>
-      </Helmet>
+      </Head>
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />

@@ -3,7 +3,7 @@ import classNames from 'classnames'
 import { SectionTilesProps } from '../../../utils/SectionProps'
 import SectionHeader from '../partials/SectionHeader'
 import ServicesLink from './partials/ServicesLink'
-import { Helmet } from "react-helmet-async";
+import Head from "next/head";
 
 const propTypes = {
   ...SectionTilesProps.types,
@@ -50,7 +50,7 @@ const ServicesList = ({
 
   return (
     <section {...props} className={outerClasses}>
-       <Helmet>
+       <Head>
         <meta name="description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } />
         <meta name="title" content={ "CodeBe - " + sectionHeader.title +" - " + sectionHeader.paragraph } />
 
@@ -64,7 +64,7 @@ const ServicesList = ({
         <meta property="twitter:url" content={ "https://www.codebe.dev/services" } />
 
         <title>CodeBe - { sectionHeader.title +" - " + sectionHeader.paragraph }</title>
-      </Helmet>
+      </Head>
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />

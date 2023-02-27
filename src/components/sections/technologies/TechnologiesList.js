@@ -2,7 +2,7 @@ import classNames from 'classnames'
 import { SectionTilesProps } from '../../../utils/SectionProps'
 import SectionHeader from '../partials/SectionHeader'
 import TechnologiesLink from './partials/TechnologiesLink'
-import { Helmet } from "react-helmet-async";
+import Head from "next/head";
 
 const propTypes = {
   ...SectionTilesProps.types,
@@ -49,7 +49,7 @@ const TechnologiesList = ({
 
   return (
     <section {...props} className={outerClasses}>
-      <Helmet>
+      <Head>
         <meta name="description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } />
         <meta name="title" content={ "CodeBe - " + sectionHeader.title +" - " + sectionHeader.paragraph } />
 
@@ -63,7 +63,7 @@ const TechnologiesList = ({
         <meta property="twitter:url" content={ "https://www.codebe.dev/technologies" } />
 
         <title>CodeBe - { sectionHeader.title +" - " + sectionHeader.paragraph }</title>
-      </Helmet>
+      </Head>
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />

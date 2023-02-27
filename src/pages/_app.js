@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import '../../public/assets/scss/style.scss';
-import { Helmet, HelmetProvider } from "react-helmet-async";
+import Head from "next/head";
 import ReactGA from 'react-ga'
 import { useRouter } from 'next/router'  
 
@@ -34,9 +34,7 @@ const MyApp = ({ Component, pageProps }) => {
 
   return (
     <StopHydrationWrapper>
-
-      <HelmetProvider>
-        <Helmet>
+        <Head>
           <meta charset="utf-8" />
           <link rel="shortcut icon" href="favicon.ico" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -67,11 +65,10 @@ const MyApp = ({ Component, pageProps }) => {
             content="CodeBe. As Experts in areas such as Middleware, Software Development, E-commerce & Mobile, we are the reference partner for Consultancy and IT Services." />
           <meta property="twitter:image" content="https://www.codebe.dev/logo.png" />
           <title>CodeBe - Experts in Middleware, Software Development & Mobile</title>
-        </Helmet>
+        </Head>
             <LayoutDefault>
               <Component {...pageProps} />
             </LayoutDefault>
-      </HelmetProvider>
     </StopHydrationWrapper>
   );
 };
