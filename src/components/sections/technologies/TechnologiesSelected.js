@@ -53,17 +53,17 @@ const TechnologiesSelected = ({
   return (
     <section {...props} className={outerClasses}>
        <Head>
-        <meta name="description" content={ "CodeBe "+ tech.title +" Technology - " + tech.paragraph } />
-        <meta name="title" content={ "CodeBe - " + tech.title +" Technology" } />
+        <meta name="description" content={ "CodeBe "+ tech.title +" Technology - " + tech.paragraph } key="description"/>
+        <meta name="title" content={ "CodeBe - " + tech.title +" Technology" } key="title"/>
 
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content={ "CodeBe - " + tech.title +" Technology" } />
-        <meta property="og:description" content={ "CodeBe "+ tech.title +" Technology - " + tech.paragraph } />
-        <meta property="og:url" content={ "https://www.codebe.dev/technologies/" + tech.link } />
+        <meta property="og:type" content="website" key="og:type"/>
+        <meta property="og:title" content={ "CodeBe - " + tech.title +" Technology" } key="og:title"/>
+        <meta property="og:description" content={ "CodeBe "+ tech.title +" Technology - " + tech.paragraph } key="og:description"/>
+        <meta property="og:url" content={ "https://www.codebe.dev/technologies/" + tech.link } key="og:url"/>
 
-        <meta property="twitter:title" content={ "CodeBe - " + tech.title +" Technology" } />
-        <meta property="twitter:description" content={ "CodeBe "+ tech.title +" Technology - " + tech.paragraph } />
-        <meta property="twitter:url" content={ "https://www.codebe.dev/technologies/" + tech.link } />
+        <meta property="twitter:title" content={ "CodeBe - " + tech.title +" Technology" } key="twitter:title"/>
+        <meta property="twitter:description" content={ "CodeBe "+ tech.title +" Technology - " + tech.paragraph } key="twitter:description"/>
+        <meta property="twitter:url" content={ "https://www.codebe.dev/technologies/" + tech.link } key="twitter:url"/>
 
         <title>CodeBe - { tech.title +" Technology" }</title>
       </Head>

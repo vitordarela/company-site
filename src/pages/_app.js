@@ -47,23 +47,26 @@ const MyApp = ({ Component, pageProps }) => {
           <meta name="keywords"
             content="codebe, code be, codebe.dev, software developer, desenvolvimento, wso2, wso2 api manager, wso2, criar ecommerce, criar e-commerce, e-commerce" />
           <meta name="description"
+            key="description"
             content="CodeBe. We create your idea. As Experts in areas such as Middleware, Software Development, E-commerce & Mobile, we are the reference partner for Consultancy and IT Services." />
-          <meta name="title" content="CodeBe - Experts in Middleware, Software Development & Mobile" />
+          <meta name="title" content="CodeBe - Experts in Middleware, Software Development & Mobile"  key="title"/>
 
-          <meta property="og:type" content="website" />
-          <meta property="og:title" content="CodeBe - Experts in Middleware, Software Development &amp; Mobile" />
+          <meta property="og:type" content="website"  key="og:type"/>
+          <meta property="og:title" content="CodeBe - Experts in Middleware, Software Development &amp; Mobile"  key="og:title"/>
           <meta property="og:description"
+           key="og:description"
             content="CodeBe. As Experts in areas such as Middleware, Software Development, E-commerce & Mobile, we are the reference partner for Consultancy and IT Services." />
-          <meta property="og:url" content="https://www.codebe.dev/" />
-          <meta property="og:site_name" content="CodeBe" />
-          <meta property="og:image" content="https://www.codebe.dev/logo.png" />
+          <meta property="og:url" content="https://www.codebe.dev/"  key="og:url"/>
+          <meta property="og:site_name" content="CodeBe"  key="og:site_name"/>
+          <meta property="og:image" content="https://www.codebe.dev/logo.png"  key="og:image"/>
 
-          <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://www.codebe.dev/" />
-          <meta property="twitter:title" content="CodeBe - Experts in Middleware, Software Development & Mobile" />
+          <meta property="twitter:card" content="summary_large_image"  key="twitter:card"/>
+          <meta property="twitter:url" content="https://www.codebe.dev/"  key="twitter:url"/>
+          <meta property="twitter:title" content="CodeBe - Experts in Middleware, Software Development & Mobile"  key="twitter:title"/>
           <meta property="twitter:description"
+            key="twitter:description"
             content="CodeBe. As Experts in areas such as Middleware, Software Development, E-commerce & Mobile, we are the reference partner for Consultancy and IT Services." />
-          <meta property="twitter:image" content="https://www.codebe.dev/logo.png" />
+          <meta property="twitter:image" content="https://www.codebe.dev/logo.png" key="twitter:image"/>
           <title>CodeBe - Experts in Middleware, Software Development & Mobile</title>
         </Head>
             <LayoutDefault>

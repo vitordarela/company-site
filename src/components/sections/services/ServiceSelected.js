@@ -53,17 +53,17 @@ const ServicesSelected = ({
   return (
     <section {...props} className={outerClasses}>
       <Head>
-        <meta name="description" content={ "CodeBe "+ service.title +" Service - " + service.paragraph } />
-        <meta name="title" content={ "CodeBe - " + service.title +" Service" } />
+        <meta name="description" content={ "CodeBe "+ service.title +" Service - " + service.paragraph } key="description"/>
+        <meta name="title" content={ "CodeBe - " + service.title +" Service" } key="title"/>
 
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content={ "CodeBe - " + service.title +" Service" } />
-        <meta property="og:description" content={ "CodeBe "+ service.title +" Service - " + service.paragraph } />
-        <meta property="og:url" content={ "https://www.codebe.dev/services/" + service.link } />
+        <meta property="og:type" content="website" key="og:type"/>
+        <meta property="og:title" content={ "CodeBe - " + service.title +" Service" } key="og:title"/>
+        <meta property="og:description" content={ "CodeBe "+ service.title +" Service - " + service.paragraph } key="og:description" />
+        <meta property="og:url" content={ "https://www.codebe.dev/services/" + service.link } key="og:url"/>
 
-        <meta property="twitter:title" content={ "CodeBe - " + service.title +" Service" } />
-        <meta property="twitter:description" content={ "CodeBe "+ service.title +" Service - " + service.paragraph } />
-        <meta property="twitter:url" content={ "https://www.codebe.dev/services/" + service.link } />
+        <meta property="twitter:title" content={ "CodeBe - " + service.title +" Service" } key="twitter:title"/>
+        <meta property="twitter:description" content={ "CodeBe "+ service.title +" Service - " + service.paragraph } key="twitter:description"/>
+        <meta property="twitter:url" content={ "https://www.codebe.dev/services/" + service.link } key="twitter:url" />
 
         <title>CodeBe - { service.title +" Service" }</title>
       </Head>

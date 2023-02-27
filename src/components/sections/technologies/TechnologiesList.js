@@ -50,17 +50,17 @@ const TechnologiesList = ({
   return (
     <section {...props} className={outerClasses}>
       <Head>
-        <meta name="description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } />
-        <meta name="title" content={ "CodeBe - " + sectionHeader.title +" - " + sectionHeader.paragraph } />
+        <meta name="description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } key="description"/>
+        <meta name="title" content={ "CodeBe - " + sectionHeader.title +" - " + sectionHeader.paragraph } key="title"/>
 
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content={ "CodeBe - " + sectionHeader.title +" - " + sectionHeader.paragraph } />
-        <meta property="og:description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } />
-        <meta property="og:url" content={ "https://www.codebe.dev/technologies" } />
+        <meta property="og:type" content="website" key="og:type"/>
+        <meta property="og:title" content={ "CodeBe - " + sectionHeader.title +" - " + sectionHeader.paragraph } key="og:title"/>
+        <meta property="og:description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } key="og:description"/>
+        <meta property="og:url" content={ "https://www.codebe.dev/technologies" } key="og:url"/>
 
-        <meta property="twitter:title" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } />
-        <meta property="twitter:description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } />
-        <meta property="twitter:url" content={ "https://www.codebe.dev/technologies" } />
+        <meta property="twitter:title" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } key="twitter:title"/>
+        <meta property="twitter:description" content={ "CodeBe "+ sectionHeader.title + " - " + sectionHeader.paragraph } key="twitter:description" />
+        <meta property="twitter:url" content={ "https://www.codebe.dev/technologies" } key="twitter:url"/>
 
         <title>CodeBe - { sectionHeader.title +" - " + sectionHeader.paragraph }</title>
       </Head>
