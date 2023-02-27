@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import Image from '../../elements/Image';
 
 const Logo = ({
@@ -19,9 +19,9 @@ const Logo = ({
       className={classes}
     >
       <h1 className="m-0">
-        <Link to="/">
+        <Link href="/">
           <Image
-            src={require('./../../../assets/images/logo.png')}
+            src={'/assets/images/logo.png'}
             alt="Open"
             width={150}
             height={80} />

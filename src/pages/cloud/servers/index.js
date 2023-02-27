@@ -1,8 +1,8 @@
 import React from 'react'
-import CloudServersComponent from '../components/sections/CloudServers'
+import CloudServersComponent from '../../../components/sections/CloudServers'
 
 // import sections
-import Cta from '../components/sections/Cta'
+import Cta from '../../../components/sections/Cta'
 
 const CloudServers = () => {
   return (

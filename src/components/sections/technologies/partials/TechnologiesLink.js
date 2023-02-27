@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from '../../../elements/Image'
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 
 const TechnologiesLink = ({ tech }) => {
   return tech ? (
     <Link
-      to={`/technologies/${tech.link}`}
+      href={`/technologies/${tech.link}`}
       className="tiles-item reveal-from-bottom"
     >
       <div className="tiles-item-inner">

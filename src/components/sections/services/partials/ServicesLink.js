@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from '../../../elements/Image'
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 
 const ServicesLink = ({ service }) => {
   return service ? (
     <Link
-      to={`/services/${service.link}`}
+      href={`/services/${service.link}`}
       className="tiles-item reveal-from-bottom"
     >
       <div className="tiles-item-inner">

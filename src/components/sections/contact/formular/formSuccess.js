@@ -1,4 +1,4 @@
-import React,{ useEffect } from 'react'
+import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import SectionHeader from '../../partials/SectionHeader'
 import Button from '../../../elements/Button'
@@ -25,8 +25,8 @@ const FormSuccess = ({ data, handleClose }) => {
   }
 
   useEffect(() => {
-    window.gtag('config', 'AW-11095834681');
-    window.gtag('event', 'conversion', {'send_to': 'AW-11095834681/cCvPCPuYm44YELmA9Kop'});
+      window.gtag('config', 'AW-11095834681');
+      window.gtag('event', 'conversion', { 'send_to': 'AW-11095834681/cCvPCPuYm44YELmA9Kop' });
   });
 
   return (
@@ -34,7 +34,7 @@ const FormSuccess = ({ data, handleClose }) => {
       <>
         <div className="center-content">
           <Image
-            src={require('./../../../../assets/images/check-icon.webp')}
+            src={'/assets/images/check-icon.webp'}
             alt="Request Sent"
             width={100}
             height={100}

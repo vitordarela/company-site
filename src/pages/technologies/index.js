@@ -1,7 +1,6 @@
-import React from 'react'
 // import sections
-import TechnologiesContent from '../components/sections/technologies/Technologies'
-import Cta from '../components/sections/Cta'
+import TechnologiesContent from '../../components/sections/technologies/Technologies'
+import Cta from '../../components/sections/Cta'
 
 const Technologies = () => {
   return (

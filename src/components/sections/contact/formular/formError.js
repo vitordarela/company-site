@@ -29,7 +29,7 @@ const FormError = ({ data, handleClose }) => {
       <>
         <div className="center-content">
           <Image
-            src={require('./../../../../assets/images/alert-icon.png')}
+            src={'/assets/images/alert-icon.png'}
             alt="Request Sent"
             width={100}
             height={100}

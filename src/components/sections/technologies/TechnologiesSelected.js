@@ -78,6 +78,7 @@ const TechnologiesSelected = ({
             {tech.description &&
               tech.description.map((techData, index) => (
                 <SplitItem
+                  key={index}
                   data={techData}
                   imageFill={imageFill}
                   imageRevealFrom={index % 2 !== 0 ? 'top' : 'bottom'}

@@ -78,7 +78,7 @@ const ServicesSelected = ({
           <div className={splitClasses}>
             {service.description &&
               service.description.map((serviceData, index) => (
-                <SplitItem
+                <SplitItem key={index}
                   data={serviceData}
                   imageFill={imageFill}
                   imageRevealFrom={index % 2 !== 0 ? 'top' : 'bottom'}

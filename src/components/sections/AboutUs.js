@@ -59,14 +59,14 @@ const AboutUsComponent = ({
       subTitle: 'Who are We',
       paragraph:
         'CodeBe was born from a dream and passion for technology of three friends. Before founding the company, each of them worked for many years for large technology companies all over the world. After a lot of experience and learning, they decided to come together to make this dream of starting their own technology company a reality.<br><br> With a lot of dedication and passion, they founded CodeBe, a company specializing in custom software solutions for their clients. We believe that every business is unique and therefore every solution should be developed according to each client\'s specific needs..<br><br> In addition, we offer continuous support to our clients, ensuring that the developed solutions continue to function efficiently and are always up-to-date. <br><br> Our development team is highly qualified and experienced, and we work with the latest technologies and methodologies to ensure that our projects are delivered with quality and within the established deadline. In addition, we offer continuous support to our clients, ensuring that the developed solutions continue to function efficiently and are always up-to-date. <br><br> We are passionate about technology and believe it can transform the world around us. That is why we work tirelessly to provide high-quality custom solutions for our clients. We are eager to work with you and help you achieve your business goals with our software solutions. <br> <a href="/contact">Contact us</a>.',
-      imageURL: require('../../assets/images/about-us.jpeg'),
+      imageURL: '/assets/images/about-us.jpeg',
     },
     {
       title: '',
       subTitle: 'Where are we',
       paragraph:
         '<b>Portugal</b> <br> Rua Pedra de Novaes, 203 <br> 4450-767 <br> Matosinhos - Porto <br><br> <b>France</b> <br> 7 Rue Georges Buffon <br> 78180 <br> Montigny-le-bretonneux',
-      imageURL: require('../../assets/images/world-wide.png'),
+      imageURL: '/assets/images/world-wide.png',
     },
   ]
 

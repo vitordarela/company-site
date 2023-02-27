@@ -4,7 +4,7 @@ import classNames from 'classnames'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import * as z from 'zod'
-import { useLocation } from 'react-router-dom'
+import { useRouter } from 'next/router' 
 import { SectionProps } from '../../utils/SectionProps'
 import Input from '../elements/Input'
 import Image from '../elements/Image'
@@ -67,7 +67,7 @@ const Cta = ({
     isSentFailure: false,
   })
 
-  const location = useLocation()
+  const location = useRouter()
 
   async function handleFormSubmit(data) {
     setEmailStatus((prev) => ({ ...prev, isSending: true }))
@@ -108,7 +108,7 @@ const Cta = ({
             {emailStatus.isSentSuccess && !errors?.newsletterEmail && (
               <div className="label-error">
                 <Image
-                  src={require('../../assets/images/check-icon.webp')}
+                  src={'/assets/images/check-icon.webp'}
                   alt="Request Sent"
                   width={16}
                   height={16}
@@ -120,7 +120,7 @@ const Cta = ({
             {emailStatus.isSentFailure && !errors?.newsletterEmail && (
               <div className="label-error">
                 <Image
-                  src={require('../../assets/images/alert-icon.png')}
+                  src={'/assets/images/alert-icon.png'}
                   alt="Request Sent"
                   width={16}
                   height={16}

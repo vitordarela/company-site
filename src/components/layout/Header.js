@@ -1,7 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 import Logo from './partials/Logo'
 
 const propTypes = {
@@ -30,9 +30,14 @@ const Header = ({
   ...props
 }) => {
   const [isActive, setIsactive] = useState(false)
+  const [mounted, setMounted] = useState(false);
 
   const nav = useRef(null)
   const hamburger = useRef(null)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   useEffect(() => {
     isActive && openMenu()
@@ -78,7 +83,7 @@ const Header = ({
     className,
   )
 
-  return (
+  return mounted && (
     <header {...props} className={classes}>
       <div className="container">
         <div
@@ -111,18 +116,18 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`,
                     )}
                   >
-                     <li>
-                      <Link to="/services" onClick={closeMenu}>
+                    <li>
+                      <Link href="/services" onClick={closeMenu}>
                         Services
                       </Link>
                     </li>
                     <li>
-                      <Link to="/technologies" onClick={closeMenu}>
+                      <Link href="/technologies" onClick={closeMenu}>
                         Technologies
                       </Link>
                     </li>
                     <li>
-                      <Link to="/cloud/servers" onClick={closeMenu}>
+                      <Link href="/cloud/servers" onClick={closeMenu}>
                         Cloud Servers
                       </Link>
                     </li>
@@ -131,7 +136,7 @@ const Header = ({
                     <ul className="list-reset header-nav-right">
                       <li>
                         <Link
-                          to="/contact"
+                          href="/contact"
                           className="button button-primary button-wide-mobile button-sm"
                           onClick={closeMenu}
                         >

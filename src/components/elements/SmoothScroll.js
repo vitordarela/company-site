@@ -23,6 +23,7 @@ const SmoothScroll = ({
   };
 
   const scrollToEl = (startTime, currentTime, duration, scrollEndElemTop, startScrollOffset) => {
+
     const runtime = currentTime - startTime;
     let progress = runtime / duration;
 
@@ -37,6 +38,7 @@ const SmoothScroll = ({
         scrollToEl(startTime, currentTime, duration, scrollEndElemTop, startScrollOffset);
       });
     }
+
   };
 
   const smoothScroll = (e) => {

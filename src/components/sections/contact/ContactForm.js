@@ -111,7 +111,7 @@ const ContactFormComponent = ({
             {isSending ? (
               <div className="center-content">
                 <Image
-                  src={require('../../../assets/images/loading.gif')}
+                  src={'/assets/images/loading.gif'}
                   alt="Request Sent"
                   width={100}
                   height={100}

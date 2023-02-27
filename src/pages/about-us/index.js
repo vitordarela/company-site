@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react'
-import AboutUsComponent from '../components/sections/AboutUs'
+import AboutUsComponent from '../../components/sections/AboutUs'
 
 // import sections
-import Cta from '../components/sections/Cta'
+import Cta from '../../components/sections/Cta'
 
 const CloudServers = () => {
     return (

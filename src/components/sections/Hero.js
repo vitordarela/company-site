@@ -81,14 +81,14 @@ const Hero = ({
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
-              data-video={require('./../../assets/video/CodeBe.mp4')}
+              data-video={'/assets/video/CodeBe.mp4'}
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={'/assets/images/video-placeholder.jpg'}
                 alt="Hero"
                 width={896}
                 height={504} />
@@ -98,7 +98,7 @@ const Hero = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video= {require('./../../assets/video/CodeBe.mp4')}
+            video= {'/assets/video/CodeBe.mp4'}
             videoTag="iframe" />
         </div>
       </div>

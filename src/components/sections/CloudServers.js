@@ -60,21 +60,21 @@ const CloudServersComponent = ({
       subTitle: 'ACCELERATE YOUR DIGITAL TRANSFORMATION',
       paragraph:
         'Google Cloud is a cloud computing platform offered by Google. It offers a wide variety of products and services including computing, storage, networking, and artificial intelligence. The platform also offers options for scalability, high availability, and security. In addition, Google Cloud has integrations with other Google tools and services such as Google Drive and Google Analytics.',
-      imageURL: require('../../assets/images/google-cloud-gpc.png'),
+      imageURL: '/assets/images/google-cloud-gpc.png',
     },
     {
       title: 'DigitalOcean',
       subTitle: 'Drive business growth',
       paragraph:
         'DigitalOcean is another popular cloud platform. It primarily focuses on offering simple and easy-to-use virtual servers, called "droplets." It also offers storage, networking and other similar resources to those offered by Google Cloud. The main difference is that DigitalOcean is more simple and easy-to-use, while Google Cloud is more robust and scalable.',
-      imageURL: require('../../assets/images/digital-ocean.png'),
+      imageURL: '/assets/images/digital-ocean.png',
     },
     {
       title: 'VERCEL',
       subTitle: 'Right Platform for Developers',
       paragraph:
         'Vercel is another cloud platform option that is gaining popularity. It is a platform-as-a-service (PaaS) that is focused on web development and hosting. It offers a variety of features including automatic HTTPS, continuous deployment, and global CDN. It also offers a simple and easy-to-use interface for managing and deploying web projects. Vercel is a great choice for teams that are focused on web development and want a simple and fast way to deploy and host their projects. Vercel is also known for its fast and reliable hosting for static sites and Jamstack projects. It integrates well with other development tools and frameworks such as React, Vue, and Next.js making it a great choice for web development teams.',
-      imageURL: require('../../assets/images/vercel.png'),
+      imageURL: '/assets/images/vercel.png',
     },
   ]
 
