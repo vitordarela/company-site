@@ -43,6 +43,8 @@ const ServicesList = ({
 
   const tilesClasses = classNames('tiles-wrap', pushLeft && 'push-left')
 
+  const sectionHeader = serviceData;
+
   return (
     <section {...props} className={outerClasses}>
        
