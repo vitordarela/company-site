@@ -5,7 +5,6 @@ import Cta from '../../components/sections/Cta'
 import { getServerSideProps } from '../../utils/ServiceData'
 
 const Technologies = ({ serviceListData }) => {
-  console.log("Log Inside Page", serviceListData)
   return (
     <>
       <ServicesContent topDivider serviceList={serviceListData} />
