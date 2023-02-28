@@ -15,6 +15,7 @@ const defaultProps = {
 
 const ServicesList = ({
   serviceList,
+  serviceData,
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -42,11 +43,7 @@ const ServicesList = ({
 
   const tilesClasses = classNames('tiles-wrap', pushLeft && 'push-left')
 
-  const sectionHeader = {
-    title: 'Services',
-    paragraph:
-      'Turning ideas into innovative tech solutions to drive your business success.',
-  }
+  const sectionHeader = serviceData;
 
   return (
     <section {...props} className={outerClasses}>
