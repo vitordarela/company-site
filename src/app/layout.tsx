@@ -35,7 +35,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Banner />
           <Footer />
         </main>
-        <ScrollRevealProvider />
+        
       </body>
     </html>
   )
