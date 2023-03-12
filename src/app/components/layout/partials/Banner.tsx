@@ -1,9 +1,35 @@
 'use client'
 
 import React, { useState } from 'react'
+import { hasCookie, setCookie } from "cookies-next";
 
 const Banner = ({ ...props }) => {
   const [bannerOpen, setBannerOpen] = useState(true)
+  const [showConsent, setShowConsent] = React.useState(true);
+
+  React.useEffect(() => {
+    setShowConsent(hasCookie("localConsent"));
+  }, []);
+
+  const acceptCookie = () => {
+    setShowConsent(true);
+    setCookie("localConsent", "true", {});
+    setBannerOpen(false)
+  };
+
+  const buttonStyle = {
+    fontSize: '12px',
+    padding: '5px 10px',
+    backgroundColor: '#e76d27',
+    color: 'white',
+    border: 'none',
+    borderRadius: '5px',
+    cursor: 'pointer'
+  };
+
+  if (showConsent) {
+    return null;
+  }
 
   return (
     <>
@@ -11,21 +37,18 @@ const Banner = ({ ...props }) => {
         <div {...props} className="banner">
           <div className="banner-inner text-xxs">
             <div className="banner-container">
-              <a
-                className="banner-link banner-link-white"
-                href="/contact"
-                rel="noopener noreferrer"
-              >
-                Talk with us
-              </a>
-              <span className="banner-separator">or</span>
-              <a
-                className="banner-link banner-link-green"
-                href="/contact"
-                rel="noopener noreferrer"
-              >
-                schedule a demo
-              </a>
+
+              <div className="fixed inset-0 bg-slate-700 bg-opacity-70">
+                <div className="fixed bottom-0 left-0 right-0 flex items-center justify-between px-4 py-8 bg-gray-100">
+                  <span style={{cursor:'pointer'}} className="text-dark text-base mr-16 banner-link banner-link-white">
+                    This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our Cookie Policy.
+                  </span>
+                  <button style={buttonStyle} onClick={() => acceptCookie()}>
+                    Accept
+                  </button>
+                </div>
+              </div>
+
             </div>
             <button
               className="banner-close"

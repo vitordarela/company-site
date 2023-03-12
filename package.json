@@ -5,6 +5,7 @@
   "dependencies": {
     "@hookform/resolvers": "^2.9.10",
     "classnames": "^2.2.6",
+    "cookies-next": "^2.1.1",
     "lodash": "^4.17.15",
     "next": "^13.2.1",
     "nextjs-google-analytics": "^2.3.3",
