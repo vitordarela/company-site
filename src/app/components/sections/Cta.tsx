@@ -94,11 +94,15 @@ const Cta = ({
             onSubmit={handleSubmit(handleFormSubmit)}
             className="cta-action"
           >
-            {errors?.newsletterEmail && (
-              <span className="label-error">
-                - {errors.newsletterEmail.message}
-              </span>
+            {
+              /*
+              {errors?.newsletterEmail && ( 
+                <span className="label-error">
+                  - {errors.newsletterEmail.message}
+                </span>
             )}
+              */
+            }
 
             {emailStatus.success && !errors?.newsletterEmail && (
               <div className="label-error">
