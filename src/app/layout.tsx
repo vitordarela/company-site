@@ -3,13 +3,20 @@ import type { Metadata } from 'next'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 import Banner from './components/layout/partials/Banner'
-import ScrollRevealProvider from '../utils/ScrollReveal'
 import '../../public/assets/scss/style.scss'
 import Script from 'next/script';
+import dynamic from "next/dynamic";
 
 interface RootLayoutProps {
   children: ReactNode
 }
+
+const ScrollRevealProvider = dynamic(
+  () => {
+    return import("../utils/ScrollReveal");
+  },
+  { ssr: false }
+);
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
@@ -35,7 +42,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Banner />
           <Footer />
         </main>
-        
+        <ScrollRevealProvider />
       </body>
     </html>
   )
