@@ -2,7 +2,7 @@ import React, { HTMLAttributes, ReactNode } from 'react'
 import classNames from 'classnames'
 import Button from '../../elements/Button'
 interface SectionHeaderProps extends HTMLAttributes<HTMLHeadElement> {
-  selected?: Boolean
+  selected?: boolean
   className?: string
   children?: ReactNode
   tag?: 'h1' | 'h2' | 'h3'
