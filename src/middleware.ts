@@ -9,7 +9,7 @@ import Negotiator from 'negotiator'
 function getLocale(request: NextRequest): string | undefined {
 
   // check if the cookie exist, if exist set the language
-  let cookie = request.cookies.get('NEXT_LOCALE')?.value
+  const cookie = request.cookies.get('NEXT_LOCALE')?.value
   if(cookie != null) {
     return cookie;
   }
@@ -18,7 +18,9 @@ function getLocale(request: NextRequest): string | undefined {
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value))
 
   // Use negotiator and intl-localematcher to get best locale
-  let languages = new Negotiator({ headers: negotiatorHeaders }).languages()
+  const languages = new Negotiator({ headers: negotiatorHeaders }).languages()
+  
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore locales are readonly
   const locales: string[] = i18n.locales
   return matchLocale(languages, locales, i18n.defaultLocale);

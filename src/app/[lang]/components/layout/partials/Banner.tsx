@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import { hasCookie, setCookie } from "cookies-next";
 
-const Banner = ({ ...props }) => {
+const Banner = ({ dictionary, ...props }) => {
   const [bannerOpen, setBannerOpen] = useState(true)
   const [showConsent, setShowConsent] = React.useState(true);
 
@@ -41,10 +41,10 @@ const Banner = ({ ...props }) => {
               <div className="fixed inset-0 bg-slate-700 bg-opacity-70">
                 <div className="fixed bottom-0 left-0 right-0 flex items-center justify-between px-4 py-8 bg-gray-100">
                   <span style={{cursor:'pointer'}} className="text-dark text-base mr-16 banner-link banner-link-white">
-                    { props.dictionary.description }
+                    { dictionary.description }
                   </span>
                   <button style={buttonStyle} onClick={() => acceptCookie()}>
-                    { props.dictionary.btn_accept }
+                    { dictionary.btn_accept }
                   </button>
                 </div>
               </div>
