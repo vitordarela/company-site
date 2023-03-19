@@ -2,8 +2,9 @@
 
 import React, { useState } from 'react'
 import { hasCookie, setCookie } from "cookies-next";
+import PropTypes from 'prop-types';
 
-const Banner = ({ dictionary, ...props }) => {
+const Banner = ({ ...props }) => {
   const [bannerOpen, setBannerOpen] = useState(true)
   const [showConsent, setShowConsent] = React.useState(true);
 
@@ -41,10 +42,10 @@ const Banner = ({ dictionary, ...props }) => {
               <div className="fixed inset-0 bg-slate-700 bg-opacity-70">
                 <div className="fixed bottom-0 left-0 right-0 flex items-center justify-between px-4 py-8 bg-gray-100">
                   <span style={{cursor:'pointer'}} className="text-dark text-base mr-16 banner-link banner-link-white">
-                    { dictionary.description }
+                    { props.dictionary.description }
                   </span>
                   <button style={buttonStyle} onClick={() => acceptCookie()}>
-                    { dictionary.btn_accept }
+                    { props.dictionary.btn_accept }
                   </button>
                 </div>
               </div>
@@ -65,5 +66,9 @@ const Banner = ({ dictionary, ...props }) => {
     </>
   )
 }
+
+Banner.propTypes = {
+  dictionary: PropTypes.any.isRequired, // Add the missing prop type validation
+};
 
 export default Banner
