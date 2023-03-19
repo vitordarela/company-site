@@ -3,43 +3,83 @@
 <!--  created with sitemap generator https://octopus.do  -->
 
     <url>
-        <loc>https://www.codebe.dev</loc>
+        <loc>https://www.codebe.dev/en</loc>
         <lastmod>2023-02-25</lastmod>
     </url>
     <url>
-        <loc>https://www.codebe.dev/services</loc>
+        <loc>https://www.codebe.dev/en/services</loc>
         <lastmod>2023-02-25</lastmod>
     </url>
     <url>
-        <loc>https://www.codebe.dev/services/ecommerce</loc>
+        <loc>https://www.codebe.dev/en/services/ecommerce</loc>
         <lastmod>2023-02-25</lastmod>
     </url>
     <url>
-        <loc>https://www.codebe.dev/services/wso2</loc>
+        <loc>https://www.codebe.dev/en/services/wso2</loc>
         <lastmod>2023-02-25</lastmod>
     </url>
     <url>
-        <loc>https://www.codebe.dev/about-us</loc>
+        <loc>https://www.codebe.dev/en/about-us</loc>
         <lastmod>2023-02-25</lastmod>
     </url>
     <url>
-        <loc>https://www.codebe.dev/contact</loc>
+        <loc>https://www.codebe.dev/en/contact</loc>
         <lastmod>2023-02-25</lastmod>
     </url>
     <url>
-        <loc>https://www.codebe.dev/technologies</loc>
+        <loc>https://www.codebe.dev/en/technologies</loc>
         <lastmod>2023-02-25</lastmod>
     </url>
     <url>
-        <loc>https://www.codebe.dev/technologies/wso2</loc>
+        <loc>https://www.codebe.dev/en/technologies/wso2</loc>
         <lastmod>2023-02-25</lastmod>
     </url>
     <url>
-        <loc>https://www.codebe.dev/technologies/spring</loc>
+        <loc>https://www.codebe.dev/en/technologies/spring</loc>
         <lastmod>2023-02-25</lastmod>
     </url>
     <url>
-        <loc>https://www.codebe.dev/cloud/servers</loc>
+        <loc>https://www.codebe.dev/en/cloud/servers</loc>
+        <lastmod>2023-02-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.codebe.dev/pt</loc>
+        <lastmod>2023-02-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.codebe.dev/pt/services</loc>
+        <lastmod>2023-02-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.codebe.dev/pt/services/ecommerce</loc>
+        <lastmod>2023-02-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.codebe.dev/pt/services/wso2</loc>
+        <lastmod>2023-02-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.codebe.dev/pt/about-us</loc>
+        <lastmod>2023-02-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.codebe.dev/pt/contact</loc>
+        <lastmod>2023-02-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.codebe.dev/pt/technologies</loc>
+        <lastmod>2023-02-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.codebe.dev/pt/technologies/wso2</loc>
+        <lastmod>2023-02-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.codebe.dev/pt/technologies/spring</loc>
+        <lastmod>2023-02-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.codebe.dev/pt/cloud/servers</loc>
         <lastmod>2023-02-25</lastmod>
     </url>
 </urlset>
