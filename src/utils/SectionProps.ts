@@ -7,6 +7,7 @@ export interface SectionSharedProps {
   bottomDivider?: boolean
   hasBgColor?: boolean
   invertColor?: boolean
+  dictionary?
 }
 
 // Section split props

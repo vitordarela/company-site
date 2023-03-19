@@ -1,0 +1,391 @@
+{
+  "hero": {
+    "talk_with_us": "Talk with Us",
+    "see_our_skills": "See our skills",
+    "title": "We create your",
+    "subTitle": "idea.",
+    "paragraph": "You imagine and we develop. We create software and provide services using the best technologies on the market."
+  },
+  "feature_tiles": {
+    "title": "We build what you need",
+    "paragraph": "We are a team of experienced and skilled software developers who are dedicated to delivering high-quality software solutions to our clients. We use the latest technologies and programming languages, and we are well-versed in a wide range of software development methodologies.",
+    "description": [
+      {
+        "title": "Versatility and Expertise",
+        "subTitle": null,
+        "paragraph": "Our team is highly adaptable and can work on projects of any size and complexity, from small web applications to large enterprise systems."
+      },
+      {
+        "title": "Customized Solutions",
+        "subTitle": null,
+        "paragraph": "We take pride in our ability to understand the unique needs of our clients and deliver software that meets their specific requirements."
+      },
+      {
+        "title": "On-Time and On-Budget",
+        "subTitle": null,
+        "paragraph": "We are committed to delivering software on time and on budget, and we work closely with our clients to ensure that the final product meets their expectations."
+      }
+    ]
+  },
+  "testimonial": {
+    "title": "Customer testimonials",
+    "paragraph": "We have received positive feedback from our customers and partners who have trusted and relied on our work.",
+    "description": [
+      {
+        "title": "Amanda Darela",
+        "subTitle": "Margot Jewels",
+        "paragraph": "— We at Margot Jewels couldn't be happier with the e-commerce development service provided by CodeBe. Their team was incredibly professional and knowledgeable, guiding us through every step of the process. The final result exceeded our expectations and has greatly improved our online sales. We highly recommend CodeBe to anyone looking to develop or improve their e-commerce platform."
+      },
+      {
+        "title": "Carolina Cortez",
+        "subTitle": "Pajé Snoods",
+        "paragraph": "— CodeBe was the perfect choice for Pajé Snoods when it came to developing our e-commerce platform. Their team was responsive and easy to work with, and they took the time to understand our specific needs. The end result was a beautiful and functional online store."
+      },
+      {
+        "title": "Gabriela Holthausen",
+        "subTitle": "Payment Gateway for online store",
+        "paragraph": "— We had a great experience working with CodeBe on integrating a new payment gateway for our e-commerce platform. They understood our needs and provided us with a seamless solution. The integration process was smooth and we could start accepting payments in no time. The team at CodeBe is knowledgeable and professional."
+      }
+    ]
+  },
+  "cta": {
+    "description": "Do you think we can help? Leave your email and we'll be in touch with you.",
+    "subscribed_success": "Subscribed with success!",
+    "request_sent": "Request Sent",
+    "subscribed_error": "Error to subscribe!",
+    "subscribe_placeholder": "Your best email",
+    "subscribe_label": "Subscribe"
+  },
+  "header": {
+    "btn_services": "Services",
+    "btn_technologies": "Technologies",
+    "btn_cloud_servers": "Cloud Servers",
+    "btn_talk_with_us": "Talk with us"
+  },
+  "banner": {
+    "description": "This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our Cookie Policy.",
+    "btn_accept": "Accept"
+  },
+  "footer": {
+    "lbl_madeby": "Made by",
+    "lbl_right_reserved": ". All right reserved",
+    "footer_nav": {
+      "btn_contact": "Contact",
+      "btn_about_us": "About us",
+      "btn_faq": "FAQ's",
+      "btn_support": "Support"
+    }
+  },
+  "default_metatag": {
+    "title": "CodeBe - Experts in Middleware, Software Development & Mobile",
+    "description": "CodeBe. We create your idea. As Experts in areas such as Middleware, Software Development, E-commerce & Mobile, we are the reference partner for Consultancy and IT Services.",
+    "openGraph": {
+      "title": "CodeBe - Experts in Middleware, Software Development & Mobile",
+      "description": "CodeBe. We create your idea. As Experts in areas such as Middleware, Software Development, E-commerce & Mobile, we are the reference partner for Consultancy and IT Services."
+    },
+    "twitter": {
+      "title": "CodeBe - Experts in Middleware, Software Development & Mobile",
+      "description": "CodeBe. We create your idea. As Experts in areas such as Middleware, Software Development, E-commerce & Mobile, we are the reference partner for Consultancy and IT Services."
+    }
+  },
+  "tech_header": {
+    "title": "Technologies",
+    "paragraph": "Our team is ready and prepared to assist you with the main technologies in the market, both at the backend and frontend levels."
+  },
+  "tech_data": [
+    {
+      "title": "WSO2",
+      "paragraph": "WSO2 is a leading open source platform for building, integrating, and managing APIs, applications, and microservices. With its flexible architecture and comprehensive set of integrated tools, WSO2 helps organizations drive digital transformation by delivering seamless and secure experiences to customers, partners, and employees.",
+      "description": [
+        {
+          "title": "Installation and Configuration",
+          "subTitle": "HOW CAN WE HELP?",
+          "paragraph": "Our team is prepared to help you connect your applications and set up your middleware architecture with the open-source WSO2 platform."
+        },
+        {
+          "subTitle": null,
+          "title": "Platform",
+          "paragraph": "WSO2 provides a series of tools and solutions to help companies manage and implement APIs, integrate applications and data, and provide security and compliance for digital operations. The tool is widely used in corporate IT environments to help connect systems and enable collaboration between different departments and systems."
+        },
+        {
+          "subTitle": "WSO2 PRODUCTS",
+          "title": "The entire middleware stack",
+          "paragraph": "<b>WSO2 API Manager:</b> API management platform. <br/> <b>WSO2 Micro Integrator:</b> Application integration platform <br/> <b>WSO2 Identity Server:</b> Identity management platform."
+        },
+        {
+          "title": "WSO2 API Manager",
+          "subTitle": "WSO2",
+          "paragraph": "WSO2 API Manager is a comprehensive solution for managing APIs throughout their lifecycle. With features such as API creation, publishing, management, and monetization, the WSO2 API Manager streamlines the process of developing and delivering secure and scalable APIs."
+        },
+        {
+          "subTitle": "Capabilities",
+          "title": "Easily and securely expose APIs to both internal and external consumers.",
+          "paragraph": "Implement industry-standard authorization flows — such as OAuth, OpenID Connect, and JWTs — out of the box and integrate with your existing identity access or key management tools."
+        },
+        {
+          "subTitle": null,
+          "title": "Enable design and runtime governance for the entire lifecycle of your APIs.",
+          "paragraph": "Build APIs from existing services, manage APIs from internally built applications and from third-party providers, and monitor their usage and performance from inception to retirement."
+        },
+        {
+          "subTitle": null,
+          "title": "Get business insights and intelligence through APIs.",
+          "paragraph": "Provide real-time access to API usage and performance statistics to decision-makers to optimize your developer support, continuously improve your services, and drive further adoption to reach your business goals."
+        },
+        {
+          "subTitle": null,
+          "title": "Flexible deployment models adapt to your infrastructure while keeping service discovery seamless for developers.",
+          "paragraph": "Deploy in the cloud, in your private data centers, or anywhere in between while cataloging your services in a single location to make it easy for your developers to find what they need to efficiently build their applications."
+        },
+        {
+          "subTitle": null,
+          "title": "Support modern services including REST, GraphQL, and Async API, and integrate your API workflows with your CI/CD pipeline.",
+          "paragraph": "Strategically adopt modern service delivery and development paradigms without leaving behind the legacy systems that made you successful in the first place."
+        },
+        {
+          "subTitle": null,
+          "title": "Advanced integration support.",
+          "paragraph": "The integration runtime supports creating composite microservices, service, and API hosting needs, message routing, transformation, message mediation, service orchestration, as well as consuming and processing streaming data."
+        },
+        {
+          "subTitle": null,
+          "title": "Powerful Graphical / CLI tooling.",
+          "paragraph": "Complete API development support with API publisher. Visually design, develop, debug, test, and deploy integration flows with Integration Studio. Complete set of commands to manage API gateway and micro integrator runtimes with API controller (CLI) tool"
+        }
+      ]
+    },
+    {
+      "title": "Spring / Spring Boot",
+      "paragraph": "Spring and Spring Boot are popular Java frameworks that are widely used in developing enterprise applications.",
+      "description": [
+        {
+          "title": "What is Spring?",
+          "subTitle": "SPRING",
+          "paragraph": "Spring is a lightweight framework that is used to develop enterprise applications, it provides a comprehensive infrastructure support for developing Java applications. It provides a lot of features such as support for dependency injection, a modular architecture, and the ability to integrate with other technologies."
+        },
+        {
+          "subTitle": "SPRING BOOT",
+          "title": "What is Spring Boot?",
+          "paragraph": "Spring Boot is a convention-over-configuration framework that builds on top of Spring. It makes it easy to create stand-alone, production-grade Spring applications by providing a set of tools and libraries that simplify common tasks. Spring Boot provides features such as auto-configuration, the ability to run as a standalone application, and a command-line interface."
+        },
+        {
+          "subTitle": "BENEFITS",
+          "title": "Why is it a good choice to use Spring",
+          "paragraph": "There are many benefits to using Spring and Spring Boot for your enterprise application development projects. One of the main benefits is ease of development. Spring and Spring Boot provide a set of tools and libraries that simplify common tasks, making it easier to develop enterprise applications. Testability is another benefit of using Spring and Spring Boot, as they make it easy to write unit and integration tests for your application. Additionally, they are flexible and can be used to develop a wide range of applications, from simple web applications to complex microservices."
+        }
+      ]
+    },
+    {
+      "title": "React / React Native",
+      "paragraph": "Our team is ready and prepared to assist you with the main technologies in the market, both at the backend and frontend levels.",
+      "description": []
+    },
+    {
+      "title": ".NET Core / Framework",
+      "paragraph": "Our team is ready and prepared to assist you with the main technologies in the market, both at the backend and frontend levels.",
+      "description": []
+    },
+    {
+      "title": "Node.js",
+      "paragraph": "Our team is ready and prepared to assist you with the main technologies in the market, both at the backend and frontend levels.",
+      "description": []
+    },
+    {
+      "title": "Vue.js",
+      "paragraph": "Our team is ready and prepared to assist you with the main technologies in the market, both at the backend and frontend levels.",
+      "description": []
+    },
+    {
+      "title": "Angular",
+      "paragraph": "Our team is ready and prepared to assist you with the main technologies in the market, both at the backend and frontend levels.",
+      "description": []
+    },
+    {
+      "title": "WordPress",
+      "paragraph": "Our team is ready and prepared to assist you with the main technologies in the market, both at the backend and frontend levels.",
+      "description": []
+    },
+    {
+      "title": "Shopify",
+      "paragraph": "Our team is ready and prepared to assist you with the main technologies in the market, both at the backend and frontend levels.",
+      "description": []
+    }
+  ],
+  "section_header": {
+    "btn_request_quote": "Request a quote now"
+  },
+  "service_header": {
+    "title": "Services",
+    "paragraph": "Turning ideas into innovative tech solutions to drive your business success."
+  },
+  "service_data": [
+    {
+      "title": "WSO2 Middleware Platform",
+      "paragraph": "WSO2 is a leading open source platform for building, integrating, and managing APIs, applications, and microservices. With its flexible architecture and comprehensive set of integrated tools, WSO2 helps organizations drive digital transformation by delivering seamless and secure experiences to customers, partners, and employees.",
+      "description": [
+        {
+          "title": "Installation and Configuration",
+          "subTitle": "HOW CAN WE HELP?",
+          "paragraph": "Our team is prepared to help you connect your applications and set up your middleware architecture with the open-source WSO2 platform."
+        },
+        {
+          "subTitle": null,
+          "title": "Platform",
+          "paragraph": "WSO2 provides a series of tools and solutions to help companies manage and implement APIs, integrate applications and data, and provide security and compliance for digital operations. The tool is widely used in corporate IT environments to help connect systems and enable collaboration between different departments and systems."
+        },
+        {
+          "subTitle": "WSO2 PRODUCTS",
+          "title": "The entire middleware stack",
+          "paragraph": "<b>WSO2 API Manager:</b> API management platform. <br/> <b>WSO2 Micro Integrator:</b> Application integration platform <br/> <b>WSO2 Identity Server:</b> Identity management platform."
+        },
+        {
+          "title": "WSO2 API Manager",
+          "subTitle": "WSO2",
+          "paragraph": "WSO2 API Manager is a comprehensive solution for managing APIs throughout their lifecycle. With features such as API creation, publishing, management, and monetization, the WSO2 API Manager streamlines the process of developing and delivering secure and scalable APIs."
+        },
+        {
+          "subTitle": "Capabilities",
+          "title": "Easily and securely expose APIs to both internal and external consumers.",
+          "paragraph": "Implement industry-standard authorization flows — such as OAuth, OpenID Connect, and JWTs — out of the box and integrate with your existing identity access or key management tools."
+        },
+        {
+          "subTitle": null,
+          "title": "Enable design and runtime governance for the entire lifecycle of your APIs.",
+          "paragraph": "Build APIs from existing services, manage APIs from internally built applications and from third-party providers, and monitor their usage and performance from inception to retirement."
+        },
+        {
+          "subTitle": null,
+          "title": "Get business insights and intelligence through APIs.",
+          "paragraph": "Provide real-time access to API usage and performance statistics to decision-makers to optimize your developer support, continuously improve your services, and drive further adoption to reach your business goals."
+        },
+        {
+          "subTitle": null,
+          "title": "Flexible deployment models adapt to your infrastructure while keeping service discovery seamless for developers.",
+          "paragraph": "Deploy in the cloud, in your private data centers, or anywhere in between while cataloging your services in a single location to make it easy for your developers to find what they need to efficiently build their applications."
+        },
+        {
+          "subTitle": null,
+          "title": "Support modern services including REST, GraphQL, and Async API, and integrate your API workflows with your CI/CD pipeline.",
+          "paragraph": "Strategically adopt modern service delivery and development paradigms without leaving behind the legacy systems that made you successful in the first place."
+        },
+        {
+          "subTitle": null,
+          "title": "Advanced integration support.",
+          "paragraph": "The integration runtime supports creating composite microservices, service, and API hosting needs, message routing, transformation, message mediation, service orchestration, as well as consuming and processing streaming data."
+        },
+        {
+          "subTitle": null,
+          "title": "Powerful Graphical / CLI tooling.",
+          "paragraph": "Complete API development support with API publisher. Visually design, develop, debug, test, and deploy integration flows with Integration Studio. Complete set of commands to manage API gateway and micro integrator runtimes with API controller (CLI) tool"
+        }
+      ]
+    },
+    {
+      "title": "E-commerce",
+      "paragraph": "Turn your online presence into profits: Custom solutions for your e-commerce store.",
+      "description": [
+        {
+          "title": "",
+          "subTitle": "The Power of an e-commerce",
+          "paragraph": "With the growth of the internet and the increased demand for online shopping, creating an E-commerce platform has become essential for the success of any business. In the current digital era, having a strong online presence is crucial in reaching new customers and increasing profits."
+        },
+        {
+          "subTitle": "SOLUTIONS",
+          "title": "How we can help",
+          "paragraph": "As a software company, we offer complete solutions for creating E-commerce platforms for all types of businesses, from large companies to small shops. We use the latest technologies to ensure our clients have a modern and functional E-commerce platform."
+        },
+        {
+          "subTitle": "technology",
+          "title": "Why is it a good choice to work with us",
+          "paragraph": "Our team of technology experts works tirelessly to ensure our clients have the best possible user experience. We use technologies such as HTML5, CSS3, JavaScript and frameworks like React and Angular to create fast and responsive E-commerce platforms. Furthermore, we use content management platforms like Shopify to ensure our clients have an intuitive and user-friendly administration panel."
+        },
+        {
+          "subTitle": "technology",
+          "title": "Shopify",
+          "paragraph": "Shopify is a complete and user-friendly E-commerce platform. It's a great option for businesses of all sizes, from small shops to large companies. Shopify offers a wide variety of customizable design templates, advanced security features, integrations with external apps and services, as well as support for various payment options and shipping methods. With Shopify, you can manage your online store, add products, process payments, and track statistics in an easy and intuitive way."
+        },
+        {
+          "subTitle": "CUSTOMIZATION",
+          "title": "We create your e-commerce in a customized way",
+          "paragraph": "We offer custom E-commerce templates to meet the unique needs of each client. Whether you're a small local shop looking to expand your online presence or a large company looking to optimize your sales, we have the right solution for you. Our templates are designed to be flexible and scalable, so you can keep up with the growth of your business."
+        },
+        {
+          "subTitle": "Support",
+          "title": "Our support is continuous, we work with the best cloud solutions on the market.",
+          "paragraph": "In addition to offering high-quality E-commerce solutions, we also offer continuous support and regular updates to ensure your platform is always functioning in the most efficient way possible. Our support team is always available to help you with any problems or questions that may arise. if you're looking for a reliable and efficient E-commerce solution, we have what you need. Contact us today for more information and start expanding your online business."
+        }
+      ]
+    },
+    {
+      "title": "Mobile App",
+      "paragraph": "Ajudamos você a conectar seus negócios.",
+      "description": []
+    },
+    {
+      "title": "Custom Software Development",
+      "paragraph": "Ajudamos você a conectar seus negócios.",
+      "description": []
+    }
+  ],
+  "cloud_header": {
+    "title": "Cloud Servers",
+    "paragraph": "We are using the best cloud solutions to support our projects, utilizing multiple high performance cloud platforms to ensure our projects run smoothly and efficiently. This cloud solution is likely to be chosen based on the company's specific needs and requirements and provides the necessary features, scalability and reliability to support its projects."
+  },
+  "cloud_data": [
+    {
+      "title": "GOOGLE CLOUD PLATFORM",
+      "subTitle": "ACCELERATE YOUR DIGITAL TRANSFORMATION",
+      "paragraph": "Google Cloud is a cloud computing platform offered by Google. It offers a wide variety of products and services including computing, storage, networking, and artificial intelligence. The platform also offers options for scalability, high availability, and security. In addition, Google Cloud has integrations with other Google tools and services such as Google Drive and Google Analytics."
+    },
+    {
+      "title": "DigitalOcean",
+      "subTitle": "Drive business growth",
+      "paragraph": "DigitalOcean is another popular cloud platform. It primarily focuses on offering simple and easy-to-use virtual servers, called \"droplets.\" It also offers storage, networking and other similar resources to those offered by Google Cloud. The main difference is that DigitalOcean is more simple and easy-to-use, while Google Cloud is more robust and scalable."
+    },
+    {
+      "title": "VERCEL",
+      "subTitle": "Right Platform for Developers",
+      "paragraph": "Vercel is another cloud platform option that is gaining popularity. It is a platform-as-a-service (PaaS) that is focused on web development and hosting. It offers a variety of features including automatic HTTPS, continuous deployment, and global CDN. It also offers a simple and easy-to-use interface for managing and deploying web projects. Vercel is a great choice for teams that are focused on web development and want a simple and fast way to deploy and host their projects. Vercel is also known for its fast and reliable hosting for static sites and Jamstack projects. It integrates well with other development tools and frameworks such as React, Vue, and Next.js making it a great choice for web development teams."
+    }
+  ],
+  "contact_header": {
+    "title": "Talk with us",
+    "paragraph": "We are always open to collaborations where we can all be a part of the same team. Ready to move forward?"
+  },
+  "contact_form": {
+    "title_yourself": "Tell us about yourself",
+    "title_project": "Tell us about your project",
+    "lbl_name": "Name",
+    "lbl_company": "Company",
+    "lbl_email": "Email",
+    "lbl_phone": "Phone",
+    "lbl_project": "Project Description",
+    "lbl_project_description": "Give us a description of your project",
+    "btn_send_request": "Send Request",
+    "success": {
+      "title": "Request sent",
+      "paragraph": "Your request was successfully sent! We will respond as quickly as possible."
+    },
+    "error": {
+      "title": "Request error",
+      "paragraph": "Your request was not sent. An error occurred while sending the request. Please, try again later."
+    },
+    "btn_close_modal": "Close"
+  },
+  "about_us_header": {
+    "title": "About Us",
+    "paragraph": "We are CodeBe, a software company specialized in developing customized solutions for our clients."
+  },
+  "about_us_data": [
+    {
+      "title": "",
+      "subTitle": "Who are We",
+      "paragraph": "CodeBe was born from a dream and passion for technology of three friends. Before founding the company, each of them worked for many years for large technology companies all over the world. After a lot of experience and learning, they decided to come together to make this dream of starting their own technology company a reality.<br><br> With a lot of dedication and passion, they founded CodeBe, a company specializing in custom software solutions for their clients. We believe that every business is unique and therefore every solution should be developed according to each client's specific needs..<br><br> In addition, we offer continuous support to our clients, ensuring that the developed solutions continue to function efficiently and are always up-to-date. <br><br> Our development team is highly qualified and experienced, and we work with the latest technologies and methodologies to ensure that our projects are delivered with quality and within the established deadline. In addition, we offer continuous support to our clients, ensuring that the developed solutions continue to function efficiently and are always up-to-date. <br><br> We are passionate about technology and believe it can transform the world around us. That is why we work tirelessly to provide high-quality custom solutions for our clients. We are eager to work with you and help you achieve your business goals with our software solutions. <br> <a href=\"/contact\">Contact us</a>."
+    },
+    {
+      "title": "",
+      "subTitle": "Where are we",
+      "paragraph": "<b>Portugal</b> <br> Rua Pedra de Novaes, 203 <br> 4450-767 <br> Matosinhos - Porto <br><br> <b>France</b> <br> 7 Rue Georges Buffon <br> 78180 <br> Montigny-le-bretonneux"
+    }
+  ]
+}
