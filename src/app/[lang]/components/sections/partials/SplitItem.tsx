@@ -1,6 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
-import { SectionHeaderProps } from '../../../../utils/ServiceData'
+import { SectionHeaderProps } from '../../../../../utils/ServiceData'
 import Img from '../../elements/Image'
 interface SplitItemProps {
   data: SectionHeaderProps
