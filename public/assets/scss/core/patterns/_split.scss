@@ -15,14 +15,17 @@
     display: flex;
     flex-direction: column;
 
-    .split-item-image {
-      position: relative;
-      width: 100%;
+    .split-item-image,
+    .split-item-content {
+      flex: 1 1 500px;
+      height: auto;
+    }
 
+    .split-item-image {
       img,
       svg,
       video {
-        width: auto;
+        width: 100%;
         height: auto;
         max-width: 100%;
         overflow: visible;
@@ -37,10 +40,7 @@
       }
     }
 
-    .split-item-content,
-    .split-item-image {
-      flex: 1;
-
+    .split-item-content {
       h3 {
         margin: 0;
       }
@@ -119,6 +119,12 @@
 @include media('<=medium') {
   .split-wrap {
     .split-item {
+      .split-item-image,
+      .split-item-content {
+        flex: 1;
+        height: auto;
+      }
+
       .split-item-content {
         margin-bottom: $split-item--inner-padding-v_mobile;
       }

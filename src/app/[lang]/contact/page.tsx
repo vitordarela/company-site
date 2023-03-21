@@ -2,20 +2,17 @@ import React from 'react'
 import type { Metadata } from 'next'
 import { getContactHeader } from '../../../utils/ServiceData'
 import ContactForm from '../components/sections/ContactForm'
-import { getDictionary } from '../../../get-dictionary';
+import { getDictionary } from '../../../get-dictionary'
 
 async function Contact({ params: { lang } }) {
-
-  const dict = await getDictionary(lang);
-  const sectionHeader = getContactHeader(dict.contact_header);
+  const dict = await getDictionary(lang)
+  const sectionHeader = getContactHeader(dict.contact_header)
 
   return (
     <>
       <ContactForm
         sectionHeader={sectionHeader}
-        invertMobile
         topDivider
-        imageFill
         className="illustration-section-02"
         dictionary={dict.contact_form}
       />
@@ -25,10 +22,11 @@ async function Contact({ params: { lang } }) {
 
 export default Contact
 
-export async function generateMetadata({ params: { lang } }): Promise<Metadata> {
-
-  const dict = await getDictionary(lang);
-  const sectionHeader = getContactHeader(dict.contact_header);
+export async function generateMetadata({
+  params: { lang },
+}): Promise<Metadata> {
+  const dict = await getDictionary(lang)
+  const sectionHeader = getContactHeader(dict.contact_header)
 
   return {
     title: 'CodeBe - ' + sectionHeader.title + ' - ' + sectionHeader.paragraph,
@@ -36,7 +34,8 @@ export async function generateMetadata({ params: { lang } }): Promise<Metadata> 
       'CodeBe - ' + sectionHeader.title + ' - ' + sectionHeader.paragraph,
 
     openGraph: {
-      title: 'CodeBe - ' + sectionHeader.title + ' - ' + sectionHeader.paragraph,
+      title:
+        'CodeBe - ' + sectionHeader.title + ' - ' + sectionHeader.paragraph,
       description:
         'CodeBe - ' + sectionHeader.title + ' - ' + sectionHeader.paragraph,
       url: 'https://www.codebe.dev/contact',
@@ -61,7 +60,8 @@ export async function generateMetadata({ params: { lang } }): Promise<Metadata> 
 
     twitter: {
       card: 'summary_large_image',
-      title: 'CodeBe - ' + sectionHeader.title + ' - ' + sectionHeader.paragraph,
+      title:
+        'CodeBe - ' + sectionHeader.title + ' - ' + sectionHeader.paragraph,
       description:
         'CodeBe - ' + sectionHeader.title + ' - ' + sectionHeader.paragraph,
       creator: '@codebe.dev',

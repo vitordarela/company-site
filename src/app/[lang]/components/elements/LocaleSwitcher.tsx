@@ -1,28 +1,44 @@
 'use client'
-import React from 'react';
+import React, { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
-import { i18n } from '../../../../i18n-config'
-import { setCookie,  } from "cookies-next";
+import { i18n, Locale } from '../../../../i18n-config'
+import { setCookie } from 'cookies-next'
 
 export default function LocaleSwitcher() {
-    const pathName = usePathname()
+  const pathName = usePathname()
+  const [activeLocale, setActiveLocale] = useState<Locale>()
 
-    const redirectedPathName = (locale: string) => {
-        if (!pathName) return '/'
-        const segments = pathName.split('/')
-        segments[1] = locale
-        setCookie("NEXT_LOCALE", locale)
-        window.location.replace(segments.join('/'))
-    }
+  useEffect(() => {
+    const segments = pathName.split('/')
+    setActiveLocale(segments[1] as Locale)
+  }, [pathName])
+
+  const redirectedPathName = (locale: string) => {
+    if (!pathName) return
+
+    const segments = pathName.split('/')
+    segments[1] = locale
+
+    setCookie('NEXT_LOCALE', locale)
+    window.location.replace(segments.join('/'))
+  }
 
   return (
-    <div>
-      <p>Locale switcher:</p>
+    activeLocale && (
+      <select
+        name="localeSwitcher"
+        id="localeSwitcher"
+        onChange={(event) => redirectedPathName(event.target.value)}
+        defaultValue={activeLocale}
+      >
         {i18n.locales.map((locale) => {
           return (
-              <button key={locale} onClick={() => redirectedPathName(locale)}>{locale.toUpperCase()}</button>
+            <option key={locale} value={locale}>
+              {locale.toUpperCase()}
+            </option>
           )
         })}
-    </div>
+      </select>
+    )
   )
 }

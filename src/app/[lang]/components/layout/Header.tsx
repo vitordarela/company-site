@@ -83,6 +83,7 @@ const Header = ({
           )}
         >
           <Logo />
+
           {!hideNav && (
             <>
               <button
@@ -95,11 +96,13 @@ const Header = ({
                   <span className="hamburger-inner"></span>
                 </span>
               </button>
+
               <nav
                 ref={nav}
                 className={classNames('header-nav', isActive && 'is-active')}
               >
                 <div className="header-nav-inner">
+                  <LocaleSwitcher />
                   <ul
                     className={classNames(
                       'list-reset text-xs',
