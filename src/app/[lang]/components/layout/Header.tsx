@@ -83,7 +83,9 @@ const Header = ({
           )}
         >
           <Logo />
-
+          <div className={classNames('header-nav', isActive && 'is-active', 'header-nav-inner')}>
+            <LocaleSwitcher /> 
+          </div>
           {!hideNav && (
             <>
               <button
@@ -102,7 +104,6 @@ const Header = ({
                 className={classNames('header-nav', isActive && 'is-active')}
               >
                 <div className="header-nav-inner">
-                  <LocaleSwitcher />
                   <ul
                     className={classNames(
                       'list-reset text-xs',

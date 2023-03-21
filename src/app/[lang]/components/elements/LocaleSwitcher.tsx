@@ -33,7 +33,7 @@ export default function LocaleSwitcher() {
       >
         {i18n.locales.map((locale) => {
           return (
-            <option key={locale} value={locale}>
+            <option style={{backgroundColor: activeLocale ? '#151719': '#151719'}}  key={locale} value={locale}>
               {locale.toUpperCase()}
             </option>
           )
