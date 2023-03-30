@@ -318,13 +318,75 @@
     },
     {
       "title": "Mobile App",
-      "paragraph": "Ajudamos você a conectar seus negócios.",
-      "description": []
+      "paragraph": "Have your business available on any device.",
+      "description": [
+          {
+          "title": "",
+          "subTitle": "Be anywhere",
+          "paragraph": "Developing a mobile application can be an effective way to improve your business's digital presence, better engage customers, and improve the efficiency of internal processes. A mobile application brings a series of strategic advantages that have an impact on business development."
+          },
+          {
+          "subTitle": "SOLUTIONS",
+          "title": "How we can help",
+          "paragraph": "We offer complete solutions for creating applications for mobile devices, such as smartphones and tablets. We use the latest technologies from various development platforms available to create mobile applications, including iOS, Android, and other platforms."
+          },
+          {
+          "subTitle": "technology",
+          "title": "Why it's a good choice to work with us",
+          "paragraph": "Our team of technology experts is prepared to continuously help plan and structure your project. We will be by your side to add value to your company and develop according to your project's requirements, whether it's native, hybrid, or cross-platform development."
+          },
+          {
+          "subTitle": "technology",
+          "title": "Native Development",
+          "paragraph": "It is the most common type of mobile development, in which the application is developed specifically for a specific mobile platform, such as iOS or Android. This type of development allows for maximum use of platform resources, such as hardware and operating system features."
+          },
+          {
+          "subTitle": "technology",
+          "title": "Hybrid Development",
+          "paragraph": "It is a type of mobile development that combines elements of native and web development. It is built using web technologies (HTML, CSS, and JavaScript) and is packaged inside a native application, allowing access to device features. Hybrid applications usually have a single codebase that can be used to create versions for multiple platforms."
+          },
+          {
+          "subTitle": "technology",
+          "title": "Cross-Platform Development",
+          "paragraph": "Cross-platform refers to technologies or approaches that allow for developing applications that work on different platforms, such as iOS and Android. With the use of these technologies, it is possible to create applications that work on multiple platforms with a single codebase, which can save time and money in development."
+          }
+        ]
     },
     {
       "title": "Custom Software Development",
-      "paragraph": "Ajudamos você a conectar seus negócios.",
-      "description": []
+      "paragraph": "Have an exclusive and tailored software to meet the needs of your company.",
+      "description": [
+          {
+          "title": "",
+          "subTitle": "Why Use Custom Software?",
+          "paragraph": "Custom software development is an attractive option for companies that have specific needs that cannot be met by off-the-shelf solutions. It can provide a more precise and effective solution for the company's needs, improving overall operational efficiency and helping the company achieve its business objectives."
+          },
+          {
+          "subTitle": "Solutions",
+          "title": "How We Can Help",
+          "paragraph": "Our team is prepared to work closely with the client to understand the software needs and requirements and create a customized solution that meets the client's specifications. We will be present from start to finish, continuously helping with all aspects of development, such as functional and non-functional requirements, usability, scalability, software security, and maintenance."
+          },
+          {
+          "subTitle": "Advantages",
+          "title": "Meets Specific Needs of Your Company",
+          "paragraph": "Custom software is developed to meet the specific needs of the business, which means it can be designed to seamlessly integrate with the company's business processes and meet its unique needs."
+          },
+          {
+          "subTitle": "Advantages",
+          "title": "Increased Security",
+          "paragraph": "Custom software can be designed to include advanced security features that can protect confidential information of clients, employees, and other stakeholders."
+          },
+          {
+          "subTitle": "Advantages",
+          "title": "Greater ROI",
+          "paragraph": "Custom software can provide a higher return on investment (ROI) than off-the-shelf software, especially in the long run, as it is tailored to the client's specific needs and can improve the efficiency and productivity of the company."
+          },
+          {
+          "subTitle": "Technology",
+          "title": "We Help Choose the Best Technology",
+          "paragraph": "Depending on the organization's goals and specific needs, there are various technologies that can be used in custom software development. Our team is prepared to develop using the best technological solutions on the market. Visit our <a href=https://codebe.dev/en/technologies>technologies page by clicking here</a> to learn more."
+          }
+      ]
     }
   ],
   "cloud_header": {

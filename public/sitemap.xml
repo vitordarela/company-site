@@ -82,4 +82,13 @@
         <loc>https://www.codebe.dev/pt/cloud/servers</loc>
         <lastmod>2023-03-19</lastmod>
     </url>
+    <url>
+        <loc>https://www.codebe.dev/services/mobile</loc>
+        <lastmod>2023-02-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.codebe.dev/services/custom-service</loc>
+        <lastmod>2023-02-25</lastmod>
+    </url>
+
 </urlset>

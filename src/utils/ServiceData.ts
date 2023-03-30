@@ -218,17 +218,91 @@ export const getServiceData = (dictionary) => [
     title: dictionary[2].title,
     paragraph: dictionary[2].paragraph,
     imageURL: '/assets/images/mobileapp2.png',
-    link: '/services/',
+    link: '/services/mobile',
     slug: 'mobile',
-    description: []
+    description: [
+      {
+        title: dictionary[2].description[0].title,
+        subTitle: dictionary[2].description[0].subTitle,
+        paragraph: dictionary[2].description[0].paragraph,
+        imageURL: '/assets/images/services/mobile-tab1.png',
+      },
+      {
+        title: dictionary[2].description[1].title,
+        subTitle: dictionary[2].description[1].subTitle,
+        paragraph: dictionary[2].description[1].paragraph,
+        imageURL: '/assets/images/services/mobile-dev.png',
+      },
+      {
+        title: dictionary[2].description[2].title,
+        subTitle: dictionary[2].description[2].subTitle,
+        paragraph: dictionary[2].description[2].paragraph,
+        imageURL: '/assets/images/services/mobile-process.png',
+      },
+      {
+        title: dictionary[2].description[3].title,
+        subTitle: dictionary[2].description[3].subTitle,
+        paragraph: dictionary[2].description[3].paragraph,
+        imageURL: '/assets/images/services/mobile-native.png',
+      },
+      {
+        title: dictionary[2].description[4].title,
+        subTitle: dictionary[2].description[4].subTitle,
+        paragraph: dictionary[2].description[4].paragraph,
+        imageURL: '/assets/images/services/mobile-hibrid.png',
+      },
+      {
+        title: dictionary[2].description[5].title,
+        subTitle: dictionary[2].description[5].subTitle,
+        paragraph: dictionary[2].description[5].paragraph,
+        imageURL: '/assets/images/services/mobile-cross.png',
+      },
+    ]
   },
   {
     title: dictionary[3].title,
     paragraph: dictionary[3].paragraph,
     imageURL: '/assets/images/software-development.png',
-    link: '/services/',
+    link: '/services/custom-service',
     slug: 'custom-service',
-    description: []
+    description: [
+      {
+        title: dictionary[3].description[0].title,
+        subTitle: dictionary[3].description[0].subTitle,
+        paragraph: dictionary[3].description[0].paragraph,
+        imageURL: '/assets/images/services/custom-tab1.png',
+      },
+      {
+        title: dictionary[3].description[1].title,
+        subTitle: dictionary[3].description[1].subTitle,
+        paragraph: dictionary[3].description[1].paragraph,
+        imageURL: '/assets/images/services/custom-dev1.png',
+      },
+      {
+        title: dictionary[3].description[2].title,
+        subTitle: dictionary[3].description[2].subTitle,
+        paragraph: dictionary[3].description[2].paragraph,
+        imageURL: '/assets/images/services/custom-v1.png',
+      },
+      {
+        title: dictionary[3].description[3].title,
+        subTitle: dictionary[3].description[3].subTitle,
+        paragraph: dictionary[3].description[3].paragraph,
+        imageURL: '/assets/images/services/custom-v2.png',
+      },
+      {
+        title: dictionary[3].description[4].title,
+        subTitle: dictionary[3].description[4].subTitle,
+        paragraph: dictionary[3].description[4].paragraph,
+        imageURL: '/assets/images/services/custom-roi.png',
+      },
+      {
+        title: dictionary[3].description[5].title,
+        subTitle: dictionary[3].description[5].subTitle,
+        paragraph: dictionary[3].description[5].paragraph,
+        imageURL: '/assets/images/services/custom-tec.png',
+      },
+    ]
   },
 ]
 

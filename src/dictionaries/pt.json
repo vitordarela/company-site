@@ -318,13 +318,75 @@
     },
     {
       "title": "Mobile App",
-      "paragraph": "Ajudamos você a conectar seus negócios.",
-      "description": []
+      "paragraph": "Tenha seu negócio disponível em qualquer dispositivo.",
+      "description": 	[
+        {
+        "title": "",
+        "subTitle": "Esteja em qualquer lugar",
+        "paragraph": "O desenvolvimento de uma aplicação móvel pode ser uma forma eficaz de melhorar a presença digital do seu negócio, envolver melhor os clientes e melhorar a eficiência dos processos internos. Uma aplicação móvel traz uma série de vantagens estratégicas que têm impacto no desenvolvimento do negócio."
+        },
+        {
+        "subTitle": "SOLUÇÕES",
+        "title": "Como podemos ajudar",
+        "paragraph": "Oferecemos soluções completas para a criação de aplicações para dispositivos móveis, como smartphones e tablets. Utilizamos as tecnologias mais recentes de várias plataformas de desenvolvimento disponíveis para criar aplicações móveis, incluindo iOS, Android e outras plataformas."
+        },
+        {
+        "subTitle": "tecnologia",
+        "title": "Por que é uma boa escolha trabalhar connosco",
+        "paragraph": "A nossa equipa de especialistas em tecnologia está preparada para ajudar continuamente a planear e estruturar o seu projeto. Estaremos ao seu lado para acrescentar valor à sua empresa e desenvolver de acordo com os requisitos do seu projeto, seja um desenvolvimento nativo, híbrido ou cross-platform."
+        },
+        {
+        "subTitle": "tecnologia",
+        "title": "Desenvolvimento Nativo",
+        "paragraph": "É o tipo mais comum de desenvolvimento móvel, no qual a aplicação é desenvolvida especificamente para uma plataforma móvel específica, como iOS ou Android. Este tipo de desenvolvimento permite o máximo aproveitamento dos recursos da plataforma, como as funcionalidades do hardware e do sistema operativo."
+        },
+        {
+        "subTitle": "tecnologia",
+        "title": "Desenvolvimento Híbrido",
+        "paragraph": "É um tipo de desenvolvimento móvel que combina elementos do desenvolvimento nativo e do desenvolvimento web. É construído com o uso de tecnologias web (HTML, CSS e JavaScript) e é empacotado dentro de uma aplicação nativa, permitindo o acesso às funcionalidades do dispositivo. As aplicações híbridas geralmente têm uma única base de código que pode ser usada para criar versões para várias plataformas."
+        },
+        {
+        "subTitle": "tecnologia",
+        "title": "Desenvolvimento Cross-Platform",
+        "paragraph": "Cross-platform refere-se a tecnologias ou abordagens que permitem desenvolver aplicações que funcionam em diferentes plataformas, como iOS e Android. Com o uso dessas tecnologias, é possível criar aplicações que funcionam em várias plataformas com uma única base de código, o que pode poupar tempo e dinheiro no desenvolvimento."
+        }
+      ]
     },
     {
-      "title": "Custom Software Development",
-      "paragraph": "Ajudamos você a conectar seus negócios.",
-      "description": []
+      "title": "Desenvolvimento de Sofware Personalizado",
+      "paragraph": "Tenha um software exclusivo e sob medida para atender as necessidades de sua empresa.",
+      "description": [
+          {
+          "title": "",
+          "subTitle": "Porque utilizar um software personalizado?",
+          "paragraph": "O desenvolvimento de software personalizado é uma opção atraente para as empresas que têm necessidades específicas que não podem ser atendidas por soluções prontas. Pode fornecer uma solução mais precisa e eficaz para as necessidades da empresa, melhorando a eficiência operacional geral e ajudando a empresa a atingir os seus objetivos de negócios."
+          },
+          {
+          "subTitle": "SOLUÇÕES",
+          "title": "Como podemos ajudar",
+          "paragraph": "A nossa equipa está preparada para trabalhar em estreita colaboração com o cliente para compreender as necessidades e requisitos do software e criar uma solução personalizada que satisfaça as especificações do cliente. Estaremos presentes do início ao fim, de forma contínua, para ajudar em todos os processos do desenvolvimento, tais como os requisitos funcionais e não funcionais, a usabilidade, a escalabilidade, a segurança e a manutenção do software."
+          },
+          {
+          "subTitle": "Vantagens",
+          "title": "Atende às necessidades específicas da sua empresa",
+          "paragraph": "Um software personalizado é desenvolvido para satisfazer as necessidades específicas do negócio, o que significa que pode ser projetado para se integrar perfeitamente com os processos de negócios da empresa e satisfazer as suas necessidades exclusivas."
+          },
+          {
+          "subTitle": "Vantagens",
+          "title": "Maior segurança",
+          "paragraph": "Um software personalizado pode ser projetado para incluir recursos de segurança avançados que podem proteger as informações confidenciais do cliente, dos funcionários e de outras partes interessadas."
+          },
+          {
+          "subTitle": "Vantagens",
+          "title": "Maior ROI",
+          "paragraph": "Um software personalizado pode fornecer um retorno sobre o investimento (ROI) maior do que um software pronto, especialmente a longo prazo, pois é adaptado às necessidades específicas do cliente e pode melhorar a eficiência e a produtividade da empresa."
+          },
+          {
+          "subTitle": "Tecnologia",
+          "title": "Ajudamos a escolher a melhor tecnologia",
+          "paragraph": "Dependendo dos objetivos e das necessidades específicas da organização, existem várias tecnologias que podem ser usadas no desenvolvimento de software personalizado. A nossa equipa está preparada para desenvolver com as melhores soluções tecnológicas do mercado. Visite a nossa página de tecnologias <a href=https://codebe.dev/pt/technologies>clicando aqui</a> para saber mais."
+          }
+      ]
     }
   ],
   "cloud_header": {
