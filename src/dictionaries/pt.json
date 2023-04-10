@@ -8,12 +8,12 @@
   },
   "feature_tiles": {
     "title": "Construímos o que você precisa",
-    "paragraph": "Somos uma equipe de desenvolvedores de software experientes e habilidosos que se dedicam a fornecer soluções de software de alta qualidade aos nossos clientes. Utilizamos as últimas tecnologias e linguagens de programação e estamos bem versados em uma ampla gama de metodologias de desenvolvimento de software.",
+    "paragraph": "Somos uma equipa de desenvolvedores de software experientes e habilidosos que se dedicam a fornecer soluções de software de alta qualidade aos nossos clientes. Utilizamos as últimas tecnologias e linguagens de programação e estamos bem versados em uma ampla gama de metodologias de desenvolvimento de software.",
     "description": [
       {
         "title": "Versatilidade e especialização",
         "subTitle": null,
-        "paragraph": "Nossa equipe é altamente adaptável e pode trabalhar em projetos de qualquer tamanho e complexidade, desde pequenas aplicações web até grandes sistemas empresariais."
+        "paragraph": "Nossa equipa é altamente adaptável e pode trabalhar em projetos de qualquer tamanho e complexidade, desde pequenas aplicações web até grandes sistemas empresariais."
       },
       {
         "title": "Soluções personalizadas",
@@ -34,12 +34,12 @@
       {
         "title": "Amanda Darela",
         "subTitle": "Margot Jewels",
-        "paragraph": "— Nós da Margot Jewels não poderíamos estar mais felizes com o serviço de desenvolvimento de e-commerce fornecido pela CodeBe. Sua equipe foi incrivelmente profissional e experiente, nos orientando em cada etapa do processo. O resultado final superou nossas expectativas e melhorou muito nossas vendas online. Recomendamos fortemente a CodeBe para qualquer pessoa que queira desenvolver ou melhorar sua plataforma de e-commerce."
+        "paragraph": "— Nós da Margot Jewels não poderíamos estar mais felizes com o serviço de desenvolvimento de e-commerce fornecido pela CodeBe. Sua equipa foi incrivelmente profissional e experiente, nos orientando em cada etapa do processo. O resultado final superou nossas expectativas e melhorou muito nossas vendas online. Recomendamos fortemente a CodeBe para qualquer pessoa que queira desenvolver ou melhorar sua plataforma de e-commerce."
       },
       {
         "title": "Carolina Cortez",
         "subTitle": "Pajé Snoods",
-        "paragraph": "— CodeBe foi a escolha perfeita para a Pajé Snoods quando se tratou de desenvolver nossa plataforma de e-commerce. Sua equipe foi responsiva e fácil de trabalhar, e eles dedicaram tempo para entender nossas necessidades específicas. O resultado final foi uma loja online bonita e funcional."
+        "paragraph": "— CodeBe foi a escolha perfeita para a Pajé Snoods quando se tratou de desenvolver nossa plataforma de e-commerce. Sua equipa foi responsiva e fácil de trabalhar, e eles dedicaram tempo para entender nossas necessidades específicas. O resultado final foi uma loja online bonita e funcional."
       },
       {
         "title": "Gabriela Holthausen",
@@ -100,7 +100,7 @@
         {
           "title": "Instalação e Configuração",
           "subTitle": "COMO PODEMOS AJUDAR?",
-          "paragraph": "Nossa equipe está preparada para ajudá-lo a conectar suas aplicações e configurar sua arquitetura de middleware com a plataforma de código aberto WSO2."
+          "paragraph": "Nossa equipa está preparada para ajudá-lo a conectar suas aplicações e configurar sua arquitetura de middleware com a plataforma de código aberto WSO2."
         },
         {
           "subTitle": null,
@@ -226,7 +226,7 @@
         {
           "title": "Instalação e Configuração",
           "subTitle": "COMO PODEMOS AJUDAR?",
-          "paragraph": "Nossa equipe está preparada para ajudá-lo a conectar suas aplicações e configurar sua arquitetura de middleware com a plataforma WSO2 de código aberto."
+          "paragraph": "Nossa equipa está preparada para ajudá-lo a conectar suas aplicações e configurar sua arquitetura de middleware com a plataforma WSO2 de código aberto."
         },
         {
           "subTitle": null,
@@ -312,7 +312,7 @@
         {
           "subTitle": "Suporte",
           "title": "O nosso suporte é contínuo, trabalhamos com as melhores soluções em nuvem do mercado.",
-          "paragraph": "Além de oferecer soluções de E-commerce de alta qualidade, também oferecemos suporte contínuo e atualizações regulares para garantir que sua plataforma esteja sempre funcionando da maneira mais eficiente possível. Nossa equipe de suporte está sempre disponível para ajudá-lo com quaisquer problemas ou dúvidas que possam surgir. Se você está procurando uma solução de E-commerce confiável e eficiente, temos o que você precisa. Entre em contato conosco hoje mesmo para obter mais informações e começar a expandir seu negócio online."
+          "paragraph": "Além de oferecer soluções de E-commerce de alta qualidade, também oferecemos suporte contínuo e atualizações regulares para garantir que sua plataforma esteja sempre funcionando da maneira mais eficiente possível. Nossa equipa de suporte está sempre disponível para ajudá-lo com quaisquer problemas ou dúvidas que possam surgir. Se você está procurando uma solução de E-commerce confiável e eficiente, temos o que você precisa. Entre em contato conosco hoje mesmo para obter mais informações e começar a expandir seu negócio online."
         }
       ]
     },
@@ -407,7 +407,7 @@
     {
       "title": "VERCEL",
       "subTitle": "A plataforma certa para programadores",
-      "paragraph": "Vercel é outra opção de plataforma de nuvem que está a ganhar popularidade. É uma plataforma como serviço (PaaS) focada em desenvolvimento e hospedagem web. Oferece uma variedade de funcionalidades, incluindo HTTPS automático, implantação contínua e CDN global. Também oferece uma interface simples e fácil de usar para gerir e implantar projetos web. Vercel é uma ótima escolha para equipas que estão focadas em desenvolvimento web e desejam uma maneira rápida e fácil de implantar e hospedar seus projetos. Vercel também é conhecido pela sua hospedagem rápida e confiável para sites estáticos e projetos Jamstack. Integra-se bem com outras ferramentas e frameworks de desenvolvimento, como React, Vue e Next.js, tornando-se uma ótima escolha para equipes de desenvolvimento web."
+      "paragraph": "Vercel é outra opção de plataforma de nuvem que está a ganhar popularidade. É uma plataforma como serviço (PaaS) focada em desenvolvimento e hospedagem web. Oferece uma variedade de funcionalidades, incluindo HTTPS automático, implantação contínua e CDN global. Também oferece uma interface simples e fácil de usar para gerir e implantar projetos web. Vercel é uma ótima escolha para equipas que estão focadas em desenvolvimento web e desejam uma maneira rápida e fácil de implantar e hospedar seus projetos. Vercel também é conhecido pela sua hospedagem rápida e confiável para sites estáticos e projetos Jamstack. Integra-se bem com outras ferramentas e frameworks de desenvolvimento, como React, Vue e Next.js, tornando-se uma ótima escolha para equipas de desenvolvimento web."
     }
   ],
   "contact_header": {
@@ -442,7 +442,7 @@
     {
       "title": "",
       "subTitle": "Quem Somos",
-      "paragraph": "A CodeBe nasceu de um sonho e da paixão por tecnologia de três amigos. Antes de fundar a empresa, cada um deles trabalhou por muitos anos em grandes empresas de tecnologia em todo o mundo. Depois de muita experiência e aprendizado, eles decidiram se unir para tornar esse sonho de começar sua própria empresa de tecnologia uma realidade. <br><br> Com muita dedicação e paixão, eles fundaram a CodeBe, uma empresa especializada em soluções de software personalizadas para seus clientes. Acreditamos que cada negócio é único e, portanto, cada solução deve ser desenvolvida de acordo com as necessidades específicas de cada cliente. <br><br> Além disso, oferecemos suporte contínuo aos nossos clientes, garantindo que as soluções desenvolvidas continuem funcionando de forma eficiente e estejam sempre atualizadas. <br><br> Nossa equipe de desenvolvimento é altamente qualificada e experiente, e trabalhamos com as últimas tecnologias e metodologias para garantir que nossos projetos sejam entregues com qualidade e dentro do prazo estabelecido. Além disso, oferecemos suporte contínuo aos nossos clientes, garantindo que as soluções desenvolvidas continuem funcionando de forma eficiente e estejam sempre atualizadas. <br><br> Somos apaixonados por tecnologia e acreditamos que ela pode transformar o mundo ao nosso redor. É por isso que trabalhamos incansavelmente para fornecer soluções personalizadas de alta qualidade para nossos clientes. Estamos ansiosos para trabalhar com você e ajudá-lo a alcançar seus objetivos de negócios com nossas soluções de software. <br> <a href=\"/contact\">Entre em contato</a>."
+      "paragraph": "A CodeBe nasceu de um sonho e da paixão por tecnologia de três amigos. Antes de fundar a empresa, cada um deles trabalhou por muitos anos em grandes empresas de tecnologia em todo o mundo. Depois de muita experiência e aprendizado, eles decidiram se unir para tornar esse sonho de começar sua própria empresa de tecnologia uma realidade. <br><br> Com muita dedicação e paixão, eles fundaram a CodeBe, uma empresa especializada em soluções de software personalizadas para seus clientes. Acreditamos que cada negócio é único e, portanto, cada solução deve ser desenvolvida de acordo com as necessidades específicas de cada cliente. <br><br> Além disso, oferecemos suporte contínuo aos nossos clientes, garantindo que as soluções desenvolvidas continuem funcionando de forma eficiente e estejam sempre atualizadas. <br><br> Nossa equipa de desenvolvimento é altamente qualificada e experiente, e trabalhamos com as últimas tecnologias e metodologias para garantir que nossos projetos sejam entregues com qualidade e dentro do prazo estabelecido. Além disso, oferecemos suporte contínuo aos nossos clientes, garantindo que as soluções desenvolvidas continuem funcionando de forma eficiente e estejam sempre atualizadas. <br><br> Somos apaixonados por tecnologia e acreditamos que ela pode transformar o mundo ao nosso redor. É por isso que trabalhamos incansavelmente para fornecer soluções personalizadas de alta qualidade para nossos clientes. Estamos ansiosos para trabalhar com você e ajudá-lo a alcançar seus objetivos de negócios com nossas soluções de software. <br> <a href=\"/contact\">Entre em contato</a>."
     },
     {
       "title": "",
