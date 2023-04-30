@@ -387,6 +387,42 @@
           "paragraph": "Dependendo dos objetivos e das necessidades específicas da organização, existem várias tecnologias que podem ser usadas no desenvolvimento de software personalizado. A nossa equipa está preparada para desenvolver com as melhores soluções tecnológicas do mercado. Visite a nossa página de tecnologias <a href=https://codebe.dev/pt/technologies>clicando aqui</a> para saber mais."
           }
       ]
+    },
+    {
+      "title": "Chatbot",
+      "paragraph": "Utilize a Inteligência Artificial para automatizar o atendimento dos seus clientes.",
+      "description": [
+        {
+          "title": "",
+          "subTitle": "Porque utilizar um chatbot?",
+          "paragraph": "Com uma comunicação inteligente, automatizada, eficiente e inovadora nos seus canais digitais, pode aumentar os níveis de satisfação dos seus clientes. Os chatbots podem ajudar a tomar decisões estratégicas para melhorar a experiência e oferecer um atendimento mais personalizado em cada interação."
+          },
+          {
+          "subTitle": "Tecnologias",
+          "title": "Inteligência Artificial com Linguagem Natural",
+          "paragraph": "O nosso chatbot usa algoritmos de processamento de linguagem natural (NLP). Estes algoritmos ajudam o chatbot a analisar o texto que o utilizador digitou e determinar o que ele está a tentar dizer. Em seguida, o chatbot pode responder com a resposta mais adequada com base na entrada do utilizador."
+          },
+          {
+          "subTitle": "Vantagens",
+          "title": "Atendimento ao cliente 24/7",
+          "paragraph": "Um chatbot pode fornecer atendimento ao cliente 24 horas por dia, 7 dias por semana, sem a necessidade de uma equipa de suporte ao cliente a trabalhar em tempo integral. Isso significa que os clientes podem obter ajuda sempre que precisarem, independentemente do horário."
+          },
+          {
+          "subTitle": "Vantagens",
+          "title": "Personalize o seu chatbot",
+          "paragraph": "Um chatbot pode ser programado para fornecer uma experiência personalizada para cada utilizador, com base nas suas necessidades e histórico de interação com a empresa. Isto pode melhorar a satisfação do cliente e aumentar as chances de fidelização à marca."
+          },
+          {
+          "subTitle": "Vantagens",
+          "title": "Aumento da eficiência",
+          "paragraph": "Um chatbot pode lidar com várias solicitações ao mesmo tempo, o que significa que pode responder rapidamente a várias perguntas e resolver problemas de forma mais eficiente do que uma equipa de suporte ao cliente humana."
+          },
+          {
+          "subTitle": "Vantagens",
+          "title": "Redução de custos",
+          "paragraph": "Os chatbots podem ser usados para lidar com tarefas repetitivas e simples, como responder a perguntas comuns. Isto permite que as empresas reduzam custos com atendimento ao cliente e alocar recursos para outras áreas."
+          }
+      ]
     }
   ],
   "cloud_header": {

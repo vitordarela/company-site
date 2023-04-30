@@ -387,6 +387,42 @@
           "paragraph": "Depending on the organization's goals and specific needs, there are various technologies that can be used in custom software development. Our team is prepared to develop using the best technological solutions on the market. Visit our <a href=https://codebe.dev/en/technologies>technologies page by clicking here</a> to learn more."
           }
       ]
+    },
+    {
+      "title": "Chatbot",
+      "paragraph": "Use Artificial Intelligence to automate your customer service.",
+      "description": [
+          {
+          "title": "",
+          "subTitle": "Why use a chatbot?",
+          "paragraph": "With intelligent, automated, efficient, and innovative communication on your digital channels, you can increase customer satisfaction levels. Chatbots can help make strategic decisions to improve the experience and offer more personalized service in each interaction."
+          },
+          {
+          "subTitle": "Technologies",
+          "title": "Natural Language Processing with AI",
+          "paragraph": "Our chatbot uses natural language processing (NLP) algorithms. These algorithms help the chatbot analyze the text that the user has typed and determine what they are trying to say. Then, the chatbot can respond with the most appropriate answer based on the user input."
+          },
+          {
+          "subTitle": "Advantages",
+          "title": "24/7 Customer Service",
+          "paragraph": "A chatbot can provide customer service 24/7 without the need for a full-time support team. This means that customers can get help whenever they need it, regardless of the time."
+          },
+          {
+          "subTitle": "Advantages",
+          "title": "Customize your chatbot",
+          "paragraph": "A chatbot can be programmed to provide a personalized experience for each user based on their needs and interaction history with the company. This can improve customer satisfaction and increase brand loyalty."
+          },
+          {
+          "subTitle": "Advantages",
+          "title": "Increased Efficiency",
+          "paragraph": "A chatbot can handle multiple requests at the same time, which means it can quickly respond to multiple questions and solve problems more efficiently than a human customer support team."
+          },
+          {
+          "subTitle": "Advantages",
+          "title": "Cost Reduction",
+          "paragraph": "Chatbots can be used to handle repetitive and simple tasks, such as answering common questions. This allows companies to reduce customer service costs and allocate resources to other areas."
+          }
+      ]
     }
   ],
   "cloud_header": {

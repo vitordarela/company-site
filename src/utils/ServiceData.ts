@@ -304,7 +304,53 @@ export const getServiceData = (dictionary) => [
       },
     ]
   },
+  {
+    title: dictionary[4].title,
+    paragraph: dictionary[4].paragraph,
+    imageURL: '/assets/images/robo-icon.png',
+    link: '/services/chatbot',
+    slug: 'chatbot',
+    description: [
+      {
+        title: dictionary[4].description[0].title,
+        subTitle: dictionary[4].description[0].subTitle,
+        paragraph: dictionary[4].description[0].paragraph,
+        imageURL: '/assets/images/services/chatbot.png',
+      },
+      {
+        title: dictionary[4].description[1].title,
+        subTitle: dictionary[4].description[1].subTitle,
+        paragraph: dictionary[4].description[1].paragraph,
+        imageURL: '/assets/images/services/chatbot-tec.png',
+      },
+      {
+        title: dictionary[4].description[2].title,
+        subTitle: dictionary[4].description[2].subTitle,
+        paragraph: dictionary[4].description[2].paragraph,
+        imageURL: '/assets/images/services/chatbot-1.png',
+      },
+      {
+        title: dictionary[4].description[3].title,
+        subTitle: dictionary[4].description[3].subTitle,
+        paragraph: dictionary[4].description[3].paragraph,
+        imageURL: '/assets/images/services/chatbot-customize.png',
+      },
+      {
+        title: dictionary[4].description[4].title,
+        subTitle: dictionary[4].description[4].subTitle,
+        paragraph: dictionary[4].description[4].paragraph,
+        imageURL: '/assets/images/services/chatbot-3.png',
+      },
+      {
+        title: dictionary[4].description[5].title,
+        subTitle: dictionary[4].description[5].subTitle,
+        paragraph: dictionary[4].description[5].paragraph,
+        imageURL: '/assets/images/services/chatbot-4.png',
+      },
+    ]
+  },
 ]
+
 
 export const getCloudServerHeader = (dictionary) => ({
   title: dictionary.title,
